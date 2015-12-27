@@ -1,16 +1,6 @@
 <div class='row' id='catface-data'></div>
 
 <script>
-  function getCSV(url, id) {
-    fullURL = 'https://raw.githubusercontent.com/' + url
-
-    $.get(fullURL, function(data) {
-      $('#catface-data').append(
-        cellContent(id, data)
-      )
-    })
-  }
-
   function cellContent(id, data) {
     fixedDate = moment(data, 'YYYY-MM-DD').format('dddd Do MMMM')
     subject = id.replace('-', ' ')
