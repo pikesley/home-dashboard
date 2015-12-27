@@ -1,0 +1,26 @@
+<div id='flea-treatment'></div>
+<div id='worm-treatment'></div>
+
+<script>
+  function getCSV(url, id) {
+    fullURL = 'https://raw.githubusercontent.com/' + url
+
+    $.get(fullURL, function(data) {
+      fixedDate = moment(data, 'YYYY-MM-DD').format('dddd Do MMMM')
+      $('#' + id).text(fixedDate)
+    })
+  }
+
+  var main = function() {
+    var items = {
+      'flea-treatment': 'pikesley/catface/master/flea-treatment.csv',
+      'worm-treatment': 'pikesley/catface/master/worm-treatment.csv'
+    }
+
+    Object.keys(items).forEach(function(key) {
+      getCSV(items[key], key)
+    })
+  }
+
+  $(document).ready(main);
+</script>

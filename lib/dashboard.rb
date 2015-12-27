@@ -7,6 +7,11 @@ class Dashboard < Sinatra::Base
     erb :index, layout: :default
   end
 
+  get '/catface' do
+    @title = 'Catface'
+    erb :catface, layout: :default
+  end
+
   # start the server if ruby file executed directly
   run! if app_file == $0
 end

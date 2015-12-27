@@ -8,5 +8,5 @@ unless ENV['RACK_ENV'] == 'production'
 
   Cucumber::Rake::Task.new
 
-  task :default => [:cucumber, 'jasmine:ci']
+  task :default => [:cucumber]
 end
