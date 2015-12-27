@@ -1,5 +1,4 @@
-<div id='flea-treatment'></div>
-<div id='worm-treatment'></div>
+<div class='row' id='catface-data'></div>
 
 <script>
   function getCSV(url, id) {
@@ -7,7 +6,7 @@
 
     $.get(fullURL, function(data) {
       fixedDate = moment(data, 'YYYY-MM-DD').format('dddd Do MMMM')
-      $('#' + id).text(fixedDate)
+      $('#catface-data').append('#' + id).text(fixedDate)
     })
   }
 
