@@ -5,5 +5,11 @@ module Dashboard
       csv = HTTParty.get url
       CSV.parse csv
     end
+
+    def self.newest repo, file
+      c = self.get_CSV repo, file
+      c.shift
+      c.sort.last
+    end
   end
 end
