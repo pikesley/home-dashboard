@@ -2,11 +2,15 @@
 http_interactions:
 - request:
     method: get
-    uri: https://raw.githubusercontent.com/pikesley/catface/master/flea-treatment.csv
+    uri: https://raw.githubusercontent.com/pikesley/catface/master/flea-treatment.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
   response:
     status:
       code: 200
@@ -29,19 +33,19 @@ http_interactions:
       Cache-Control:
       - max-age=300
       X-Github-Request-Id:
-      - B91F1220:2F40:16DDB322:568177DA
+      - B91F121F:6926:26203D0F:56817B5B
       Content-Length:
       - '16'
       Accept-Ranges:
       - bytes
       Date:
-      - Mon, 28 Dec 2015 17:56:42 GMT
+      - Mon, 28 Dec 2015 18:11:39 GMT
       Via:
       - 1.1 varnish
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-lcy1121-LCY
+      - cache-lcy1130-LCY
       X-Cache:
       - MISS
       X-Cache-Hits:
@@ -51,9 +55,9 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Fastly-Request-Id:
-      - c0b35d43322f46149d8b0362a69dc2d98b688cc5
+      - 52f78fbdfa1d1e981e174f4c019912f96a4c60bf
       Expires:
-      - Mon, 28 Dec 2015 18:01:42 GMT
+      - Mon, 28 Dec 2015 18:16:39 GMT
       Source-Age:
       - '0'
     body:
@@ -62,5 +66,5 @@ http_interactions:
         Date
         2015-12-03
     http_version: 
-  recorded_at: Mon, 28 Dec 2015 17:56:42 GMT
+  recorded_at: Mon, 28 Dec 2015 18:11:39 GMT
 recorded_with: VCR 3.0.1

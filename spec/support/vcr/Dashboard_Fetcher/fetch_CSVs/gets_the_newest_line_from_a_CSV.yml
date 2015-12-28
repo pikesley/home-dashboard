@@ -2,11 +2,15 @@
 http_interactions:
 - request:
     method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
   response:
     status:
       code: 200
@@ -29,13 +33,13 @@ http_interactions:
       Cache-Control:
       - max-age=300
       X-Github-Request-Id:
-      - B91F1218:2F45:36B42241:568177D2
+      - B91F1222:35CB:276DA964:56817BAA
       Content-Length:
       - '1379'
       Accept-Ranges:
       - bytes
       Date:
-      - Mon, 28 Dec 2015 17:56:43 GMT
+      - Mon, 28 Dec 2015 18:12:58 GMT
       Via:
       - 1.1 varnish
       Connection:
@@ -51,9 +55,9 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Fastly-Request-Id:
-      - 8263c0f19d8709db4b2864d3f8b0082a5f8f228f
+      - 027b51a2e15bf48de07c53dd82bc77c809fdecbf
       Expires:
-      - Mon, 28 Dec 2015 18:01:43 GMT
+      - Mon, 28 Dec 2015 18:17:58 GMT
       Source-Age:
       - '0'
     body:
@@ -118,5 +122,5 @@ http_interactions:
         2015-12-13,Weaned Mouse,1,1
         2015-12-23,Weaned Mouse,1,1
     http_version: 
-  recorded_at: Mon, 28 Dec 2015 17:56:43 GMT
+  recorded_at: Mon, 28 Dec 2015 18:12:58 GMT
 recorded_with: VCR 3.0.1
