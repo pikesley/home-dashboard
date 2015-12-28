@@ -1,15 +1,22 @@
-<div class='row' id='catface-data'></div>
+<div class='row' id='data'></div>
+
 
 <script>
   var main = function() {
-    var items = {
-      'flea-treatment': 'pikesley/catface/master/flea-treatment.csv',
-      'worm-treatment': 'pikesley/catface/master/worm-treatment.csv'
-    }
+    var items = <%= @data %>
 
     Object.keys(items).forEach(function(key) {
-      getCSV(items[key], key)
+      $('#data').append(
+        cellContent(items[key].name, items[key].newest)
+      )
     })
+  }
+
+  function cellContent(id, data) {
+    fixedDate = moment(data, 'YYYY-MM-DD').format('dddd Do MMMM')
+    subject = id.replace('-', ' ').replace('.csv', '')
+    content = '<p>Last ' + subject + ' was on</p><h2>' + fixedDate + '</h2>'
+    return "<div class='col-md-4' id='#" + id + "'>" + content + "</div>"
   }
 
   $(document).ready(main);

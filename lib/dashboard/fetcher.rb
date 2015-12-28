@@ -32,12 +32,10 @@ module Dashboard
     end
 
     def self.fetch_CSVs repo
-      csvs = []
       self.list_CSVs(repo).each do |csv|
-        csvs.push(self.get_CSV csv['download_url'])
+        csv['content'] = self.get_CSV(csv['download_url'])
+        csv['newest'] = self.newest(csv['content'].clone)
       end
-
-      csvs
     end
   end
 end

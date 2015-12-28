@@ -4,8 +4,10 @@ require 'tilt'
 require 'httparty'
 require 'csv'
 require 'dotenv'
+require 'json'
 
 require_relative 'dashboard/fetcher'
+require_relative 'dashboard/helpers'
 require_relative 'dashboard/version'
 
 Dotenv.load
@@ -37,6 +39,7 @@ module Dashboard
 
     get '/catface' do
       @title = 'Catface'
+      @data = Fetcher.fetch_CSVs('pikesley/catface').to_json
       erb :catface, layout: :default
     end
 
