@@ -21,4 +21,5 @@ group :test do
   gem 'webmock'
   gem 'cucumber-api-steps', require: false
   gem 'jasmine'
+  gem 'coveralls'
 end
