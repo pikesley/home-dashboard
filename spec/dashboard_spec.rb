@@ -31,5 +31,11 @@ module Dashboard
         )
       end
     end
+
+    context 'query Github' do
+      it 'lists the CSVs in a repo', :vcr do
+        expect(described_class.list_CSVs('pikesley/catface').count).to eq 2
+      end
+    end
   end
 end

@@ -8,6 +8,7 @@ gem 'sass'
 gem 'bootstrap-sass'
 gem 'tilt', '~> 1'
 gem 'httparty'
+gem 'dotenv'
 
 group :test do
   gem 'cucumber'

@@ -3,8 +3,12 @@ require 'sinatra/assetpack'
 require 'tilt'
 require 'httparty'
 require 'csv'
+require 'dotenv'
 
 require_relative 'dashboard/fetcher'
+require_relative 'dashboard/version'
+
+Dotenv.load
 
 module Dashboard
   class App < Sinatra::Base
