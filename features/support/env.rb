@@ -15,7 +15,7 @@ class DashboardWorld
   include RSpec::Matchers
 
   def app
-    Dashboard
+    Dashboard::App
   end
 end
 

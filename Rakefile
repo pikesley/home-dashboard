@@ -7,6 +7,7 @@ unless ENV['RACK_ENV'] == 'production'
   load 'jasmine/tasks/jasmine.rake'
 
   Cucumber::Rake::Task.new
+  RSpec::Core::RakeTask.new
 
-  task :default => [:cucumber]
+  task :default => [:spec, :cucumber]
 end
