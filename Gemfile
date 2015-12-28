@@ -23,4 +23,5 @@ group :test do
   gem 'cucumber-api-steps', require: false
   gem 'jasmine'
   gem 'coveralls'
+  gem 'actionpack', '~> 4'
 end
