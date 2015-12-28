@@ -6,15 +6,14 @@ class Dashboard < Sinatra::Base
   register Sinatra::AssetPack
 
   assets do
+    serve '/js', from: 'assets/javascripts'
     js :application, [
       '/js/dashboard.js'
     ]
 
+    serve '/css', from: 'assets/css'
     css :application, [
-      '/css/jqueryui.css',
-      '/css/reset.css',
-      '/css/foundation.css',
-      '/css/app.css'
+      '/css/styles.css'
     ]
 
     js_compression :jsmin
