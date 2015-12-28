@@ -26,7 +26,8 @@ module Dashboard
       end
 
       it 'gets the newest line from a CSV', :vcr do
-        expect(described_class.newest('https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv')).to eq (
+        csv = described_class.get_CSV 'https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv'
+        expect(described_class.newest csv).to eq (
           ["2015-12-23", "Weaned Mouse", "1", "1"]
         )
       end
@@ -37,6 +38,10 @@ module Dashboard
         expect(described_class.list_CSVs('pikesley/catface').count).to eq 2
         expect(described_class.list_CSVs('pikesley/catface').first['name']).to eq 'flea-treatment.csv'
         expect(described_class.list_CSVs('pikesley/catface').first['url']).to eq 'https://api.github.com/repos/pikesley/catface/contents/flea-treatment.csv?ref=master'
+      end
+
+      it 'gets all the CSVs in a repo', :vcr do
+        expect(described_class.fetch_CSVs('pikesley/snake-data').count).to eq 5
       end
     end
   end

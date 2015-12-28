@@ -19,10 +19,9 @@ module Dashboard
       CSV.parse csv
     end
 
-    def self.newest url
-      c = self.get_CSV url
-      c.shift
-      c.sort.last
+    def self.newest csv
+      csv.shift
+      csv.sort.last
     end
 
     def self.list_CSVs repo
@@ -30,6 +29,15 @@ module Dashboard
 
       h = HTTParty.get url, headers: self.headers, query: self.query
       h.select { |i| i['name'].match /\.csv$/ }
+    end
+
+    def self.fetch_CSVs repo
+      csvs = []
+      self.list_CSVs(repo).each do |csv|
+        csvs.push(self.get_CSV csv['download_url'])
+      end
+
+      csvs
     end
   end
 end
