@@ -10,6 +10,7 @@ gem 'tilt', '~> 1'
 gem 'httparty'
 gem 'dotenv'
 gem 'rack-conneg'
+gem 'actionpack', '~> 4'
 
 group :test do
   gem 'cucumber'
@@ -24,5 +25,4 @@ group :test do
   gem 'cucumber-api-steps', require: false
   gem 'jasmine'
   gem 'coveralls'
-  gem 'actionpack', '~> 4'
 end
