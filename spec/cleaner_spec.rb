@@ -46,6 +46,7 @@ module Dashboard
         {
           'title' => 'Length Measurement',
           'name' => 'length.csv',
+          'type' => 'graph',
           'url' => 'https://github.com/pikesley/snake-data/blob/master/length.csv',
           'data' => [
             ['Date', 'Length in m'],
@@ -56,6 +57,20 @@ module Dashboard
             ['2015-01-11', '0.60'],
             ['2015-01-28', '0.65'],
             ['2015-08-27', '0.95']
+          ]
+        }
+      )
+    end
+
+    it 'gets simpler JSON', :vcr do
+      expect(described_class.sanitized_data 'https://api.github.com/repos/pikesley/catface/contents/flea-treatment.csv?ref=master').to eq (
+        {
+          'title' => 'Flea Treatment',
+          'name' => 'flea-treatment.csv',
+          'type' => 'latest',
+          'url' => 'https://github.com/pikesley/catface/blob/master/flea-treatment.csv',
+          'data' => [
+            ['Date'], ['2015-12-03']
           ]
         }
       )

@@ -26,23 +26,20 @@ module Dashboard
 
       j['title'] = titleise(d)
       j['name'] = d['name']
+      j['type'] = lookups.dig(d['repo'], trim(d['name']), 'type') || 'latest'
       j['url'] = d['_links']['html']
       j['data'] = d['data']
 
       j
     end
 
-    def self.titleise data
-      trimmed = data['name'].sub(/\.csv$/, '')
-      if lookups.has_key? data['repo']
-        if lookups[data['repo']].has_key? trimmed
-          if lookups[data['repo']][trimmed].has_key? 'title'
-            return lookups[data['repo']][trimmed]['title']
-          end
-        end
-      end
+    def self.trim string
+      string.sub /\.csv$/, ''
+    end
 
-      trimmed.split('-').map { |w| w[0].upcase + w[1..-1] }.join ' '
+    def self.titleise data
+      trimmed = trim data['name']
+      lookups.dig(data['repo'], trimmed, 'title') || trimmed.split('-').map { |w| w[0].upcase + w[1..-1] }.join(' ')
     end
   end
 end
