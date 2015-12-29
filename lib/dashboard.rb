@@ -5,9 +5,10 @@ require 'httparty'
 require 'csv'
 require 'dotenv'
 require 'json'
+require 'active_support/inflector'
 
 require_relative 'dashboard/fetcher'
-require_relative 'dashboard/helpers'
+require_relative 'dashboard/cleaner'
 require_relative 'dashboard/version'
 
 Dotenv.load

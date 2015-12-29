@@ -4,7 +4,6 @@
 <script>
   var main = function() {
     var items = <%= @data %>
-debugger
     Object.keys(items).forEach(function(key) {
       $('#data').append(
         cellContent(items[key].name, items[key].newest)

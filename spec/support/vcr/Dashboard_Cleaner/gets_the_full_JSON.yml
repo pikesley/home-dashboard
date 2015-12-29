@@ -1,0 +1,145 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:52:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '969'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4997'
+      X-Ratelimit-Reset:
+      - '1451400618'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"fe5e67566d60252dcce1fc2df6f5d7a1"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - a30e6f9aa7cf5731b87dfb3b9992202d
+      X-Github-Request-Id:
+      - 5102724B:14B62:1F101B79:56829030
+    body:
+      encoding: UTF-8
+      string: '{"name":"length.csv","path":"length.csv","sha":"8d81d82abac88d3ef7ce74de0199a985af3df0d9","size":129,"url":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/length.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv","type":"file","content":"RGF0ZSxMZW5ndGggaW4gbQoyMDE0LTA5LTMwLDAuNDUKMjAxNC0xMC0wOSww\nLjUwCjIwMTQtMTAtMTgsMC41MAoyMDE0LTEyLTEyLDAuNTUKMjAxNS0wMS0x\nMSwwLjYwCjIwMTUtMDEtMjgsMC42NQoyMDE1LTA4LTI3LDAuOTUK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","html":"https://github.com/pikesley/snake-data/blob/master/length.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:52:48 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"8d81d82abac88d3ef7ce74de0199a985af3df0d9"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1220:35CE:37529EF6:56829031
+      Content-Length:
+      - '129'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:52:49 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lcy1126-LCY
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 5eebdcf739ccb5ce098fbf9e3bde51691144a97b
+      Expires:
+      - Tue, 29 Dec 2015 13:57:49 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |
+        Date,Length in m
+        2014-09-30,0.45
+        2014-10-09,0.50
+        2014-10-18,0.50
+        2014-12-12,0.55
+        2015-01-11,0.60
+        2015-01-28,0.65
+        2015-08-27,0.95
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:52:49 GMT
+recorded_with: VCR 3.0.1
