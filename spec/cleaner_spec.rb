@@ -44,8 +44,7 @@ module Dashboard
     it 'gets the full JSON', :vcr do
       expect(described_class.sanitized_data 'https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master').to eq (
         {
-          'title' => 'Length',
-          'singular' => 'Length',
+          'title' => 'Length Measurement',
           'name' => 'length.csv',
           'url' => 'https://github.com/pikesley/snake-data/blob/master/length.csv',
           'data' => [
