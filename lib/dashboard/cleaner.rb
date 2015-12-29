@@ -28,7 +28,7 @@ module Dashboard
       j['name'] = d['name']
       j['type'] = lookups.dig(d['repo'], trim(d['name']), 'type') || 'latest'
       j['url'] = d['_links']['html']
-      j['data'] = d['data']
+      j['data'] = jsonise d['data']
 
       j
     end

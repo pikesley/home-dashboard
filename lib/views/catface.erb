@@ -2,14 +2,20 @@
 
 
 <script>
-  var main = function() {
-    var items = <%= @data %>
-    Object.keys(items).forEach(function(key) {
-      $('#data').append(
-        cellContent(items[key].name, items[key].newest)
-      )
-    })
-  }
+alert(document.URL);
+var main = function() {
+  $.getJSON(document.URL, function(data) {
+    debugger
+  })
+}
+//  var main = function() {
+//    var items = <%= @data %>
+//    Object.keys(items).forEach(function(key) {
+//      $('#data').append(
+//        cellContent(items[key].name, items[key].newest)
+//      )
+//    })
+//  }
 
   function cellContent(id, data) {
     fixedDate = moment(data, 'YYYY-MM-DD').format('dddd Do MMMM')
