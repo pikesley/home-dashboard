@@ -87,15 +87,11 @@ module Dashboard
       end
 
       it 'gets all the CSVs in a repo', :vcr do
-        pending
         expect(described_class.fetch_CSVs('pikesley/snake-data').count).to eq 5
         expect(described_class.fetch_CSVs('pikesley/snake-data').first['name']).to eq 'feeds.csv'
-        expect(described_class.fetch_CSVs('pikesley/snake-data').last['content']).to be_an Array
-        expect(described_class.fetch_CSVs('pikesley/snake-data').first['content'].first).to eq (
+        expect(described_class.fetch_CSVs('pikesley/snake-data').last['data']).to be_an Array
+        expect(described_class.fetch_CSVs('pikesley/snake-data').first['data'].first).to eq (
           ["Date", "Food", "Offered", "Eaten"]
-        )
-        expect(described_class.fetch_CSVs('pikesley/snake-data').last['newest']).to eq (
-          ["2015-08-19", "205.0"]
         )
       end
     end

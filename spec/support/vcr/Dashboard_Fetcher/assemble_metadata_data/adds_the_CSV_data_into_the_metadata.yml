@@ -19,7 +19,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Tue, 29 Dec 2015 13:03:44 GMT
+      - Tue, 29 Dec 2015 13:12:03 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -29,7 +29,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4995'
+      - '4994'
       X-Ratelimit-Reset:
       - '1451396206'
       Cache-Control:
@@ -61,14 +61,83 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 173530fed4bbeb1e264b2ed22e8b5c20
+      - bd82876e9bf04990f289ba22f246ee9b
       X-Github-Request-Id:
-      - 5102724B:A39C:1709DE78:568284B0
+      - 5102724B:1D261:1ED28565:568286A3
     body:
       encoding: UTF-8
       string: '{"name":"worm-treatment.csv","path":"worm-treatment.csv","sha":"d230ca31f494a00dd2efbdf8f64273f991c388a6","size":16,"url":"https://api.github.com/repos/pikesley/catface/contents/worm-treatment.csv?ref=master","html_url":"https://github.com/pikesley/catface/blob/master/worm-treatment.csv","git_url":"https://api.github.com/repos/pikesley/catface/git/blobs/d230ca31f494a00dd2efbdf8f64273f991c388a6","download_url":"https://raw.githubusercontent.com/pikesley/catface/master/worm-treatment.csv","type":"file","content":"RGF0ZQoyMDE1LTEyLTA3Cg==\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/catface/contents/worm-treatment.csv?ref=master","git":"https://api.github.com/repos/pikesley/catface/git/blobs/d230ca31f494a00dd2efbdf8f64273f991c388a6","html":"https://github.com/pikesley/catface/blob/master/worm-treatment.csv"}}'
     http_version: 
-  recorded_at: Tue, 29 Dec 2015 13:03:44 GMT
+  recorded_at: Tue, 29 Dec 2015 13:12:03 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/catface/contents/worm-treatment.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:12:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '851'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4993'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:27:33 GMT
+      Etag:
+      - '"a4edaf488d19b7fd821d266bcd32ef77"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 7f48e2f7761567e923121f17538d7a6d
+      X-Github-Request-Id:
+      - 5102724B:1D25E:F076AFC:568286A3
+    body:
+      encoding: UTF-8
+      string: '{"name":"worm-treatment.csv","path":"worm-treatment.csv","sha":"d230ca31f494a00dd2efbdf8f64273f991c388a6","size":16,"url":"https://api.github.com/repos/pikesley/catface/contents/worm-treatment.csv?ref=master","html_url":"https://github.com/pikesley/catface/blob/master/worm-treatment.csv","git_url":"https://api.github.com/repos/pikesley/catface/git/blobs/d230ca31f494a00dd2efbdf8f64273f991c388a6","download_url":"https://raw.githubusercontent.com/pikesley/catface/master/worm-treatment.csv","type":"file","content":"RGF0ZQoyMDE1LTEyLTA3Cg==\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/catface/contents/worm-treatment.csv?ref=master","git":"https://api.github.com/repos/pikesley/catface/git/blobs/d230ca31f494a00dd2efbdf8f64273f991c388a6","html":"https://github.com/pikesley/catface/blob/master/worm-treatment.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:12:04 GMT
 - request:
     method: get
     uri: https://raw.githubusercontent.com/pikesley/catface/master/worm-treatment.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
@@ -102,19 +171,19 @@ http_interactions:
       Cache-Control:
       - max-age=300
       X-Github-Request-Id:
-      - B91F1316:6924:3563CD13:568284B1
+      - B91F1216:2F44:37001212:568286A4
       Content-Length:
       - '16'
       Accept-Ranges:
       - bytes
       Date:
-      - Tue, 29 Dec 2015 13:03:45 GMT
+      - Tue, 29 Dec 2015 13:12:04 GMT
       Via:
       - 1.1 varnish
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-lhr6333-LHR
+      - cache-lcy1127-LCY
       X-Cache:
       - MISS
       X-Cache-Hits:
@@ -124,9 +193,9 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Fastly-Request-Id:
-      - 793b2a25a51e76d1fd741a126f64cabdbca624a3
+      - 4fb557527e68974220c00a2d7c589bc94fb998ba
       Expires:
-      - Tue, 29 Dec 2015 13:08:45 GMT
+      - Tue, 29 Dec 2015 13:17:04 GMT
       Source-Age:
       - '0'
     body:
@@ -135,5 +204,5 @@ http_interactions:
         Date
         2015-12-07
     http_version: 
-  recorded_at: Tue, 29 Dec 2015 13:03:45 GMT
+  recorded_at: Tue, 29 Dec 2015 13:12:04 GMT
 recorded_with: VCR 3.0.1

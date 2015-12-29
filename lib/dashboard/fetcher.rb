@@ -40,9 +40,12 @@ module Dashboard
     end
 
     def self.fetch_CSVs repo
-      self.list_CSVs(repo).each do |csv|
-      #  csv['content'] = self.get_CSV(csv['download_url'])
+      c = []
+      self.list_CSVs(repo).each do |url|
+        c.push assemble_data url
       end
+      
+      c
     end
   end
 end

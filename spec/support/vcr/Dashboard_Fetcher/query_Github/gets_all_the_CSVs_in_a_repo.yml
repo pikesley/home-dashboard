@@ -19,7 +19,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Mon, 28 Dec 2015 18:46:33 GMT
+      - Tue, 29 Dec 2015 13:27:09 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -29,9 +29,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4975'
+      - '4992'
       X-Ratelimit-Reset:
-      - '1451331167'
+      - '1451396206'
       Cache-Control:
       - public, max-age=60, s-maxage=60
       Last-Modified:
@@ -61,14 +61,83 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - bd82876e9bf04990f289ba22f246ee9b
+      - 8a5c38021a5cd7cef7b8f49a296fee40
       X-Github-Request-Id:
-      - 5102724B:1D259:49B3412:56818389
+      - 5102724B:14B60:147DA8BD:56828A2D
     body:
       encoding: UTF-8
       string: '[{"name":"README.md","path":"README.md","sha":"56fa2a57da9f365c2260e3479938f59774535aa9","size":379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/README.md","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/README.md","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","html":"https://github.com/pikesley/snake-data/blob/master/README.md"}},{"name":"feeds.csv","path":"feeds.csv","sha":"22faa82d87ed66d62483dfd9ec8db3e43875b77e","size":1379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/feeds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","html":"https://github.com/pikesley/snake-data/blob/master/feeds.csv"}},{"name":"length.csv","path":"length.csv","sha":"8d81d82abac88d3ef7ce74de0199a985af3df0d9","size":129,"url":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/length.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","html":"https://github.com/pikesley/snake-data/blob/master/length.csv"}},{"name":"sheds.csv","path":"sheds.csv","sha":"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","size":348,"url":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/sheds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","html":"https://github.com/pikesley/snake-data/blob/master/sheds.csv"}},{"name":"vivarium-cleans.csv","path":"vivarium-cleans.csv","sha":"c642e1cbab366182c683827266bacb18cfbb283b","size":199,"url":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","html":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv"}},{"name":"weight.csv","path":"weight.csv","sha":"e86c9b593025ca38a51aab3b93596cef9c4cdd37","size":489,"url":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/weight.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","html":"https://github.com/pikesley/snake-data/blob/master/weight.csv"}}]'
     http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:33 GMT
+  recorded_at: Tue, 29 Dec 2015 13:27:10 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2687'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4991'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"87db99e13db3e24bd40be0bd0fc66dcc"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 139317cebd6caf9cd03889139437f00b
+      X-Github-Request-Id:
+      - 5102724B:14B59:8158653:56828A2E
+    body:
+      encoding: UTF-8
+      string: '{"name":"feeds.csv","path":"feeds.csv","sha":"22faa82d87ed66d62483dfd9ec8db3e43875b77e","size":1379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/feeds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv","type":"file","content":"RGF0ZSxGb29kLE9mZmVyZWQsRWF0ZW4KMjAxNC0wOS0yOCxQaW5reSwxLDEK\nMjAxNC0xMC0wMixQaW5reSwyLDIKMjAxNC0xMC0wNixQaW5reSwyLDEKMjAx\nNC0xMC0xMixQaW5reSwyLDAKMjAxNC0xMC0xOSxQaW5reSwyLDIKMjAxNC0x\nMC0yNixQaW5reSwzLDMKMjAxNC0xMS0wMixGdXp6eSwxLDEKMjAxNC0xMS0w\nOSxGdXp6eSwxLDEKMjAxNC0xMS0xNixGdXp6eSwxLDEKMjAxNC0xMS0yMyxG\ndXp6eSwxLDEKMjAxNC0xMi0wNyxGdXp6eSwxLDEKMjAxNC0xMi0xNCxGdXp6\neSwxLDEKMjAxNS0wMS0wMSxGdXp6eSwxLDEKMjAxNS0wMS0xMSxGdXp6eSwx\nLDEKMjAxNS0wMS0xOCxGdXp6eSwyLDIKMjAxNS0wMS0yNSxGdXp6eSwxLDEK\nMjAxNS0wMi0wMSxGdXp6eSwxLDAKMjAxNS0wMi0wOCxGdXp6eSwyLDIKMjAx\nNS0wMi0xNSxGdXp6eSwxLDEKMjAxNS0wMi0yMixGdXp6eSwyLDIKMjAxNS0w\nMy0wMSxGdXp6eSwxLDAKMjAxNS0wMy0wOCxGdXp6eSwyLDIKMjAxNS0wMy0x\nNixGdXp6eSwxLDEKMjAxNS0wMy0yMixGdXp6eSwyLDIKMjAxNS0wMy0yOSxG\ndXp6eSwyLDIKMjAxNS0wNC0wNSxIb3BwZXIsMSwxCjIwMTUtMDQtMTIsSG9w\ncGVyLDEsMQoyMDE1LTA0LTE5LEhvcHBlciwxLDEKMjAxNS0wNC0yNixIb3Bw\nZXIsMSwxCjIwMTUtMDUtMTAsSG9wcGVyLDEsMQoyMDE1LTA1LTE3LEhvcHBl\nciwxLDEKMjAxNS0wNS0yNCxIb3BwZXIsMSwxCjIwMTUtMDUtMzEsSG9wcGVy\nLDEsMQoyMDE1LTA2LTA3LEhvcHBlciwxLDEKMjAxNS0wNi0xNCxIb3BwZXIs\nMSwxCjIwMTUtMDYtMjEsSG9wcGVyLDEsMQoyMDE1LTA3LTA1LFdlYW5lZCBN\nb3VzZSwxLDEKMjAxNS0wNy0xMixXZWFuZWQgTW91c2UsMSwxCjIwMTUtMDct\nMTksV2VhbmVkIE1vdXNlLDEsMQoyMDE1LTA3LTI2LFdlYW5lZCBNb3VzZSwx\nLDEKMjAxNS0wOC0wMixXZWFuZWQgTW91c2UsMSwxCjIwMTUtMDgtMDksV2Vh\nbmVkIE1vdXNlLDEsMQoyMDE1LTA4LTE2LFdlYW5lZCBNb3VzZSwxLDEKMjAx\nNS0wOC0yMyxXZWFuZWQgTW91c2UsMSwxCjIwMTUtMDgtMzAsV2VhbmVkIE1v\ndXNlLDEsMQoyMDE1LTA5LTA2LFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMC0w\nNCxXZWFuZWQgTW91c2UsMSwxCjIwMTUtMTAtMTEsV2VhbmVkIE1vdXNlLDEs\nMQoyMDE1LTEwLTE4LFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMC0yNSxXZWFu\nZWQgTW91c2UsMSwxCjIwMTUtMTEtMDEsV2VhbmVkIE1vdXNlLDEsMQoyMDE1\nLTExLTExLFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMS0yMixXZWFuZWQgTW91\nc2UsMSwxCjIwMTUtMTEtMjksV2VhbmVkIE1vdXNlLDEsMQoyMDE1LTEyLTA2\nLFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMi0xMyxXZWFuZWQgTW91c2UsMSwx\nCjIwMTUtMTItMjMsV2VhbmVkIE1vdXNlLDEsMQo=\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","html":"https://github.com/pikesley/snake-data/blob/master/feeds.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:10 GMT
 - request:
     method: get
     uri: https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
@@ -102,33 +171,33 @@ http_interactions:
       Cache-Control:
       - max-age=300
       X-Github-Request-Id:
-      - B91F1322:448D:25A4F35C:568182BD
+      - B91F1222:6923:303EB3CD:56828A2F
       Content-Length:
       - '1379'
       Accept-Ranges:
       - bytes
       Date:
-      - Mon, 28 Dec 2015 18:46:34 GMT
+      - Tue, 29 Dec 2015 13:27:11 GMT
       Via:
       - 1.1 varnish
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-lhr6320-LHR
+      - cache-lcy1122-LCY
       X-Cache:
-      - HIT
+      - MISS
       X-Cache-Hits:
-      - '1'
+      - '0'
       Vary:
       - Authorization,Accept-Encoding
       Access-Control-Allow-Origin:
       - "*"
       X-Fastly-Request-Id:
-      - 8cbb6b4ce785b0df5e8e2019af5a30a3884cfba4
+      - da2fb12a86b739cbd2817853e62b4449a29e14f3
       Expires:
-      - Mon, 28 Dec 2015 18:51:34 GMT
+      - Tue, 29 Dec 2015 13:32:11 GMT
       Source-Age:
-      - '204'
+      - '0'
     body:
       encoding: UTF-8
       string: |
@@ -191,338 +260,10 @@ http_interactions:
         2015-12-13,Weaned Mouse,1,1
         2015-12-23,Weaned Mouse,1,1
     http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:34 GMT
+  recorded_at: Tue, 29 Dec 2015 13:27:11 GMT
 - request:
     method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"8d81d82abac88d3ef7ce74de0199a985af3df0d9"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1320:4486:E7CC8EB:568182BA
-      Content-Length:
-      - '129'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:34 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6320-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '1'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 6ae328d6fa706b872cbb364183ac30d0c3c72ce9
-      Expires:
-      - Mon, 28 Dec 2015 18:51:34 GMT
-      Source-Age:
-      - '204'
-    body:
-      encoding: UTF-8
-      string: |
-        Date,Length in m
-        2014-09-30,0.45
-        2014-10-09,0.50
-        2014-10-18,0.50
-        2014-12-12,0.55
-        2015-01-11,0.60
-        2015-01-28,0.65
-        2015-08-27,0.95
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:34 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1317:448B:33C89154:568182BE
-      Content-Length:
-      - '348'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:34 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6325-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '1'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - cad00a148c5e692c7a05d994cee9c9e42cacae3b
-      Expires:
-      - Mon, 28 Dec 2015 18:51:34 GMT
-      Source-Age:
-      - '204'
-    body:
-      encoding: UTF-8
-      string: |
-        Serial,Blue phase observed,Shed completed
-        1,2014-10-13,2014-10-17
-        2,2014-11-16,2014-11-22
-        3,2014-12-23,2014-12-31
-        4,2015-01-31,2015-02-05
-        5,2015-03-01,2015-03-06
-        6,2015-04-07,2015-04-12
-        7,2015-05-02,2015-05-07
-        8,,2015-06-05
-        9,2015-07-08,2015-07-12
-        10,2015-08-12,2015-08-15
-        11,2015-09-12,2015-09-19
-        12,2015-11-01,2015-11-10
-        13,2015-12-13,2015-12-23
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:34 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"c642e1cbab366182c683827266bacb18cfbb283b"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1315:448C:35887F84:568182BE
-      Content-Length:
-      - '199'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:34 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6320-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '2'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - f3b91a528a484b28583b39fb20599cd5c4cfa754
-      Expires:
-      - Mon, 28 Dec 2015 18:51:34 GMT
-      Source-Age:
-      - '204'
-    body:
-      encoding: UTF-8
-      string: |
-        Serial,Date
-        1,2014-10-25
-        2,2014-11-23
-        3,2014-12-21
-        4,2015-01-18
-        5,2015-02-14
-        6,2015-03-21
-        7,2015-04-18
-        8,2015-05-24
-        9,2015-06-17
-        10,2015-07-18
-        11,2015-08-15
-        12,2015-09-12
-        13,2015-10-18
-        14,2015-11-21
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:34 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"e86c9b593025ca38a51aab3b93596cef9c4cdd37"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1320:4486:E7CCC14:568182BE
-      Content-Length:
-      - '489'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:34 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6333-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '1'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 19a85db0afca263a1de1c7a6e0483fc11a989872
-      Expires:
-      - Mon, 28 Dec 2015 18:51:34 GMT
-      Source-Age:
-      - '204'
-    body:
-      encoding: UTF-8
-      string: |
-        Date,Mass in g
-        2014-10-23,18.3
-        2014-10-31,19
-        2014-11-05,22
-        2014-11-11,22.8
-        2014-12-02,24
-        2014-12-09,28.5
-        2014-12-16,28
-        2014-12-23,34.2
-        2015-01-04,32.3
-        2015-01-13,35.3
-        2015-01-20,40.4
-        2015-01-28,36.4
-        2015-02-08,33.7
-        2015-02-11,41.3
-        2015-02-18,43.2
-        2015-02-25,49.2
-        2015-03-10,54.7
-        2015-03-12,50.6
-        2015-03-19,53.3
-        2015-03-24,63.3
-        2015-04-02,65.6
-        2015-04-16,84
-        2015-04-23,85.1
-        2015-05-14,103.3
-        2015-05-17,97.8
-        2015-05-26,118.7
-        2015-06-10,136.7
-        2015-07-01,154
-        2015-07-14,176.8
-        2015-08-19,205.0
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:34 GMT
-- request:
-    method: get
-    uri: https://api.github.com/repos/pikesley/snake-data/contents?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
     body:
       encoding: US-ASCII
       string: ''
@@ -539,25 +280,25 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Mon, 28 Dec 2015 18:46:35 GMT
+      - Tue, 29 Dec 2015 13:27:11 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '4598'
+      - '969'
       Status:
       - 200 OK
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4974'
+      - '4990'
       X-Ratelimit-Reset:
-      - '1451331167'
+      - '1451396206'
       Cache-Control:
       - public, max-age=60, s-maxage=60
       Last-Modified:
-      - Thu, 23 Jul 2015 18:42:48 GMT
+      - Mon, 28 Dec 2015 16:45:21 GMT
       Etag:
-      - '"5b1d77c0dd848802c5dbf95b22ad4283"'
+      - '"fe5e67566d60252dcce1fc2df6f5d7a1"'
       Vary:
       - Accept
       - Accept-Encoding
@@ -581,137 +322,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - bd82876e9bf04990f289ba22f246ee9b
+      - bae57931a6fe678a3dffe9be8e7819c8
       X-Github-Request-Id:
-      - 5102724B:1D25C:7EB602E:5681838B
+      - 5102724B:14B62:1F09DD65:56828A2F
     body:
       encoding: UTF-8
-      string: '[{"name":"README.md","path":"README.md","sha":"56fa2a57da9f365c2260e3479938f59774535aa9","size":379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/README.md","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/README.md","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","html":"https://github.com/pikesley/snake-data/blob/master/README.md"}},{"name":"feeds.csv","path":"feeds.csv","sha":"22faa82d87ed66d62483dfd9ec8db3e43875b77e","size":1379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/feeds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","html":"https://github.com/pikesley/snake-data/blob/master/feeds.csv"}},{"name":"length.csv","path":"length.csv","sha":"8d81d82abac88d3ef7ce74de0199a985af3df0d9","size":129,"url":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/length.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","html":"https://github.com/pikesley/snake-data/blob/master/length.csv"}},{"name":"sheds.csv","path":"sheds.csv","sha":"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","size":348,"url":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/sheds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","html":"https://github.com/pikesley/snake-data/blob/master/sheds.csv"}},{"name":"vivarium-cleans.csv","path":"vivarium-cleans.csv","sha":"c642e1cbab366182c683827266bacb18cfbb283b","size":199,"url":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","html":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv"}},{"name":"weight.csv","path":"weight.csv","sha":"e86c9b593025ca38a51aab3b93596cef9c4cdd37","size":489,"url":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/weight.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","html":"https://github.com/pikesley/snake-data/blob/master/weight.csv"}}]'
+      string: '{"name":"length.csv","path":"length.csv","sha":"8d81d82abac88d3ef7ce74de0199a985af3df0d9","size":129,"url":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/length.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv","type":"file","content":"RGF0ZSxMZW5ndGggaW4gbQoyMDE0LTA5LTMwLDAuNDUKMjAxNC0xMC0wOSww\nLjUwCjIwMTQtMTAtMTgsMC41MAoyMDE0LTEyLTEyLDAuNTUKMjAxNS0wMS0x\nMSwwLjYwCjIwMTUtMDEtMjgsMC42NQoyMDE1LTA4LTI3LDAuOTUK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","html":"https://github.com/pikesley/snake-data/blob/master/length.csv"}}'
     http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:35 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"22faa82d87ed66d62483dfd9ec8db3e43875b77e"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1322:448D:25A4F35C:568182BD
-      Content-Length:
-      - '1379'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:35 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6331-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '1'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - e8953b49986748361e03e570d43690bb43291dc3
-      Expires:
-      - Mon, 28 Dec 2015 18:51:35 GMT
-      Source-Age:
-      - '206'
-    body:
-      encoding: UTF-8
-      string: |
-        Date,Food,Offered,Eaten
-        2014-09-28,Pinky,1,1
-        2014-10-02,Pinky,2,2
-        2014-10-06,Pinky,2,1
-        2014-10-12,Pinky,2,0
-        2014-10-19,Pinky,2,2
-        2014-10-26,Pinky,3,3
-        2014-11-02,Fuzzy,1,1
-        2014-11-09,Fuzzy,1,1
-        2014-11-16,Fuzzy,1,1
-        2014-11-23,Fuzzy,1,1
-        2014-12-07,Fuzzy,1,1
-        2014-12-14,Fuzzy,1,1
-        2015-01-01,Fuzzy,1,1
-        2015-01-11,Fuzzy,1,1
-        2015-01-18,Fuzzy,2,2
-        2015-01-25,Fuzzy,1,1
-        2015-02-01,Fuzzy,1,0
-        2015-02-08,Fuzzy,2,2
-        2015-02-15,Fuzzy,1,1
-        2015-02-22,Fuzzy,2,2
-        2015-03-01,Fuzzy,1,0
-        2015-03-08,Fuzzy,2,2
-        2015-03-16,Fuzzy,1,1
-        2015-03-22,Fuzzy,2,2
-        2015-03-29,Fuzzy,2,2
-        2015-04-05,Hopper,1,1
-        2015-04-12,Hopper,1,1
-        2015-04-19,Hopper,1,1
-        2015-04-26,Hopper,1,1
-        2015-05-10,Hopper,1,1
-        2015-05-17,Hopper,1,1
-        2015-05-24,Hopper,1,1
-        2015-05-31,Hopper,1,1
-        2015-06-07,Hopper,1,1
-        2015-06-14,Hopper,1,1
-        2015-06-21,Hopper,1,1
-        2015-07-05,Weaned Mouse,1,1
-        2015-07-12,Weaned Mouse,1,1
-        2015-07-19,Weaned Mouse,1,1
-        2015-07-26,Weaned Mouse,1,1
-        2015-08-02,Weaned Mouse,1,1
-        2015-08-09,Weaned Mouse,1,1
-        2015-08-16,Weaned Mouse,1,1
-        2015-08-23,Weaned Mouse,1,1
-        2015-08-30,Weaned Mouse,1,1
-        2015-09-06,Weaned Mouse,1,1
-        2015-10-04,Weaned Mouse,1,1
-        2015-10-11,Weaned Mouse,1,1
-        2015-10-18,Weaned Mouse,1,1
-        2015-10-25,Weaned Mouse,1,1
-        2015-11-01,Weaned Mouse,1,1
-        2015-11-11,Weaned Mouse,1,1
-        2015-11-22,Weaned Mouse,1,1
-        2015-11-29,Weaned Mouse,1,1
-        2015-12-06,Weaned Mouse,1,1
-        2015-12-13,Weaned Mouse,1,1
-        2015-12-23,Weaned Mouse,1,1
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:35 GMT
+  recorded_at: Tue, 29 Dec 2015 13:27:11 GMT
 - request:
     method: get
     uri: https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
@@ -745,33 +363,33 @@ http_interactions:
       Cache-Control:
       - max-age=300
       X-Github-Request-Id:
-      - B91F1320:4486:E7CC8EB:568182BA
+      - B91F1220:6925:37502CB2:56828A30
       Content-Length:
       - '129'
       Accept-Ranges:
       - bytes
       Date:
-      - Mon, 28 Dec 2015 18:46:36 GMT
+      - Tue, 29 Dec 2015 13:27:12 GMT
       Via:
       - 1.1 varnish
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-lhr6334-LHR
+      - cache-lcy1124-LCY
       X-Cache:
-      - HIT
+      - MISS
       X-Cache-Hits:
-      - '1'
+      - '0'
       Vary:
       - Authorization,Accept-Encoding
       Access-Control-Allow-Origin:
       - "*"
       X-Fastly-Request-Id:
-      - 1f62ed124118433b7b5adfc90695b1e5c7bbbf68
+      - 472b319d8387c08d4ec9eb6bac7061660deabca7
       Expires:
-      - Mon, 28 Dec 2015 18:51:36 GMT
+      - Tue, 29 Dec 2015 13:32:12 GMT
       Source-Age:
-      - '206'
+      - '0'
     body:
       encoding: UTF-8
       string: |
@@ -784,265 +402,10 @@ http_interactions:
         2015-01-28,0.65
         2015-08-27,0.95
     http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:36 GMT
+  recorded_at: Tue, 29 Dec 2015 13:27:12 GMT
 - request:
     method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1317:448B:33C89154:568182BE
-      Content-Length:
-      - '348'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:36 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6334-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '2'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 65fe7337f0bbce4fa3f0f2d093c24a86b656b241
-      Expires:
-      - Mon, 28 Dec 2015 18:51:36 GMT
-      Source-Age:
-      - '206'
-    body:
-      encoding: UTF-8
-      string: |
-        Serial,Blue phase observed,Shed completed
-        1,2014-10-13,2014-10-17
-        2,2014-11-16,2014-11-22
-        3,2014-12-23,2014-12-31
-        4,2015-01-31,2015-02-05
-        5,2015-03-01,2015-03-06
-        6,2015-04-07,2015-04-12
-        7,2015-05-02,2015-05-07
-        8,,2015-06-05
-        9,2015-07-08,2015-07-12
-        10,2015-08-12,2015-08-15
-        11,2015-09-12,2015-09-19
-        12,2015-11-01,2015-11-10
-        13,2015-12-13,2015-12-23
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:36 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"c642e1cbab366182c683827266bacb18cfbb283b"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1315:448C:35887F84:568182BE
-      Content-Length:
-      - '199'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:36 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6324-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '2'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - fb4b41ad1bdb21fa9b1bc5329e723a80cfa4798b
-      Expires:
-      - Mon, 28 Dec 2015 18:51:36 GMT
-      Source-Age:
-      - '206'
-    body:
-      encoding: UTF-8
-      string: |
-        Serial,Date
-        1,2014-10-25
-        2,2014-11-23
-        3,2014-12-21
-        4,2015-01-18
-        5,2015-02-14
-        6,2015-03-21
-        7,2015-04-18
-        8,2015-05-24
-        9,2015-06-17
-        10,2015-07-18
-        11,2015-08-15
-        12,2015-09-12
-        13,2015-10-18
-        14,2015-11-21
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:36 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"e86c9b593025ca38a51aab3b93596cef9c4cdd37"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1320:4486:E7CCC14:568182BE
-      Content-Length:
-      - '489'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:36 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6330-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '1'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 867523558040a189bcebe2dab813bf0c6dbcd800
-      Expires:
-      - Mon, 28 Dec 2015 18:51:36 GMT
-      Source-Age:
-      - '206'
-    body:
-      encoding: UTF-8
-      string: |
-        Date,Mass in g
-        2014-10-23,18.3
-        2014-10-31,19
-        2014-11-05,22
-        2014-11-11,22.8
-        2014-12-02,24
-        2014-12-09,28.5
-        2014-12-16,28
-        2014-12-23,34.2
-        2015-01-04,32.3
-        2015-01-13,35.3
-        2015-01-20,40.4
-        2015-01-28,36.4
-        2015-02-08,33.7
-        2015-02-11,41.3
-        2015-02-18,43.2
-        2015-02-25,49.2
-        2015-03-10,54.7
-        2015-03-12,50.6
-        2015-03-19,53.3
-        2015-03-24,63.3
-        2015-04-02,65.6
-        2015-04-16,84
-        2015-04-23,85.1
-        2015-05-14,103.3
-        2015-05-17,97.8
-        2015-05-26,118.7
-        2015-06-10,136.7
-        2015-07-01,154
-        2015-07-14,176.8
-        2015-08-19,205.0
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:36 GMT
-- request:
-    method: get
-    uri: https://api.github.com/repos/pikesley/snake-data/contents?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
     body:
       encoding: US-ASCII
       string: ''
@@ -1059,1065 +422,25 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Mon, 28 Dec 2015 18:46:37 GMT
+      - Tue, 29 Dec 2015 13:27:12 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '4598'
+      - '1264'
       Status:
       - 200 OK
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4973'
+      - '4989'
       X-Ratelimit-Reset:
-      - '1451331167'
+      - '1451396206'
       Cache-Control:
       - public, max-age=60, s-maxage=60
       Last-Modified:
-      - Thu, 23 Jul 2015 18:42:48 GMT
+      - Mon, 28 Dec 2015 16:45:21 GMT
       Etag:
-      - '"5b1d77c0dd848802c5dbf95b22ad4283"'
-      Vary:
-      - Accept
-      - Accept-Encoding
-      X-Github-Media-Type:
-      - github.v3; format=json
-      Access-Control-Allow-Credentials:
-      - 'true'
-      Access-Control-Expose-Headers:
-      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
-        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
-      Access-Control-Allow-Origin:
-      - "*"
-      Content-Security-Policy:
-      - default-src 'none'
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubdomains; preload
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - deny
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Served-By:
-      - 7b641bda7ec2ca7cd9df72d2578baf75
-      X-Github-Request-Id:
-      - 5102724B:1D262:1C46F637:5681838C
-    body:
-      encoding: UTF-8
-      string: '[{"name":"README.md","path":"README.md","sha":"56fa2a57da9f365c2260e3479938f59774535aa9","size":379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/README.md","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/README.md","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","html":"https://github.com/pikesley/snake-data/blob/master/README.md"}},{"name":"feeds.csv","path":"feeds.csv","sha":"22faa82d87ed66d62483dfd9ec8db3e43875b77e","size":1379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/feeds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","html":"https://github.com/pikesley/snake-data/blob/master/feeds.csv"}},{"name":"length.csv","path":"length.csv","sha":"8d81d82abac88d3ef7ce74de0199a985af3df0d9","size":129,"url":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/length.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","html":"https://github.com/pikesley/snake-data/blob/master/length.csv"}},{"name":"sheds.csv","path":"sheds.csv","sha":"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","size":348,"url":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/sheds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","html":"https://github.com/pikesley/snake-data/blob/master/sheds.csv"}},{"name":"vivarium-cleans.csv","path":"vivarium-cleans.csv","sha":"c642e1cbab366182c683827266bacb18cfbb283b","size":199,"url":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","html":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv"}},{"name":"weight.csv","path":"weight.csv","sha":"e86c9b593025ca38a51aab3b93596cef9c4cdd37","size":489,"url":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/weight.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","html":"https://github.com/pikesley/snake-data/blob/master/weight.csv"}}]'
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:37 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"22faa82d87ed66d62483dfd9ec8db3e43875b77e"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1322:448D:25A4F35C:568182BD
-      Content-Length:
-      - '1379'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:37 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6334-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '6'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 8a797d0d267c4518723ec2092b9a5eb84e8915c7
-      Expires:
-      - Mon, 28 Dec 2015 18:51:37 GMT
-      Source-Age:
-      - '207'
-    body:
-      encoding: UTF-8
-      string: |
-        Date,Food,Offered,Eaten
-        2014-09-28,Pinky,1,1
-        2014-10-02,Pinky,2,2
-        2014-10-06,Pinky,2,1
-        2014-10-12,Pinky,2,0
-        2014-10-19,Pinky,2,2
-        2014-10-26,Pinky,3,3
-        2014-11-02,Fuzzy,1,1
-        2014-11-09,Fuzzy,1,1
-        2014-11-16,Fuzzy,1,1
-        2014-11-23,Fuzzy,1,1
-        2014-12-07,Fuzzy,1,1
-        2014-12-14,Fuzzy,1,1
-        2015-01-01,Fuzzy,1,1
-        2015-01-11,Fuzzy,1,1
-        2015-01-18,Fuzzy,2,2
-        2015-01-25,Fuzzy,1,1
-        2015-02-01,Fuzzy,1,0
-        2015-02-08,Fuzzy,2,2
-        2015-02-15,Fuzzy,1,1
-        2015-02-22,Fuzzy,2,2
-        2015-03-01,Fuzzy,1,0
-        2015-03-08,Fuzzy,2,2
-        2015-03-16,Fuzzy,1,1
-        2015-03-22,Fuzzy,2,2
-        2015-03-29,Fuzzy,2,2
-        2015-04-05,Hopper,1,1
-        2015-04-12,Hopper,1,1
-        2015-04-19,Hopper,1,1
-        2015-04-26,Hopper,1,1
-        2015-05-10,Hopper,1,1
-        2015-05-17,Hopper,1,1
-        2015-05-24,Hopper,1,1
-        2015-05-31,Hopper,1,1
-        2015-06-07,Hopper,1,1
-        2015-06-14,Hopper,1,1
-        2015-06-21,Hopper,1,1
-        2015-07-05,Weaned Mouse,1,1
-        2015-07-12,Weaned Mouse,1,1
-        2015-07-19,Weaned Mouse,1,1
-        2015-07-26,Weaned Mouse,1,1
-        2015-08-02,Weaned Mouse,1,1
-        2015-08-09,Weaned Mouse,1,1
-        2015-08-16,Weaned Mouse,1,1
-        2015-08-23,Weaned Mouse,1,1
-        2015-08-30,Weaned Mouse,1,1
-        2015-09-06,Weaned Mouse,1,1
-        2015-10-04,Weaned Mouse,1,1
-        2015-10-11,Weaned Mouse,1,1
-        2015-10-18,Weaned Mouse,1,1
-        2015-10-25,Weaned Mouse,1,1
-        2015-11-01,Weaned Mouse,1,1
-        2015-11-11,Weaned Mouse,1,1
-        2015-11-22,Weaned Mouse,1,1
-        2015-11-29,Weaned Mouse,1,1
-        2015-12-06,Weaned Mouse,1,1
-        2015-12-13,Weaned Mouse,1,1
-        2015-12-23,Weaned Mouse,1,1
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:37 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"8d81d82abac88d3ef7ce74de0199a985af3df0d9"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1320:4486:E7CC8EB:568182BA
-      Content-Length:
-      - '129'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:37 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6333-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '1'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 44e993fe16398b12aefaa681c127a1b699b4765c
-      Expires:
-      - Mon, 28 Dec 2015 18:51:37 GMT
-      Source-Age:
-      - '207'
-    body:
-      encoding: UTF-8
-      string: |
-        Date,Length in m
-        2014-09-30,0.45
-        2014-10-09,0.50
-        2014-10-18,0.50
-        2014-12-12,0.55
-        2015-01-11,0.60
-        2015-01-28,0.65
-        2015-08-27,0.95
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:37 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1317:448B:33C89154:568182BE
-      Content-Length:
-      - '348'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:37 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6322-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '1'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 932584cb537d243a3a0f1b231d5b49680fb2dd05
-      Expires:
-      - Mon, 28 Dec 2015 18:51:37 GMT
-      Source-Age:
-      - '207'
-    body:
-      encoding: UTF-8
-      string: |
-        Serial,Blue phase observed,Shed completed
-        1,2014-10-13,2014-10-17
-        2,2014-11-16,2014-11-22
-        3,2014-12-23,2014-12-31
-        4,2015-01-31,2015-02-05
-        5,2015-03-01,2015-03-06
-        6,2015-04-07,2015-04-12
-        7,2015-05-02,2015-05-07
-        8,,2015-06-05
-        9,2015-07-08,2015-07-12
-        10,2015-08-12,2015-08-15
-        11,2015-09-12,2015-09-19
-        12,2015-11-01,2015-11-10
-        13,2015-12-13,2015-12-23
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:37 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"c642e1cbab366182c683827266bacb18cfbb283b"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1315:448C:35887F84:568182BE
-      Content-Length:
-      - '199'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:37 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6331-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '1'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 0c806eb18c0a07107ccd182d1c7161b22d05940d
-      Expires:
-      - Mon, 28 Dec 2015 18:51:37 GMT
-      Source-Age:
-      - '207'
-    body:
-      encoding: UTF-8
-      string: |
-        Serial,Date
-        1,2014-10-25
-        2,2014-11-23
-        3,2014-12-21
-        4,2015-01-18
-        5,2015-02-14
-        6,2015-03-21
-        7,2015-04-18
-        8,2015-05-24
-        9,2015-06-17
-        10,2015-07-18
-        11,2015-08-15
-        12,2015-09-12
-        13,2015-10-18
-        14,2015-11-21
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:37 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"e86c9b593025ca38a51aab3b93596cef9c4cdd37"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1320:4486:E7CCC14:568182BE
-      Content-Length:
-      - '489'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:38 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6328-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '1'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 93f0253988b495ef30070466cf104676280ddac2
-      Expires:
-      - Mon, 28 Dec 2015 18:51:38 GMT
-      Source-Age:
-      - '207'
-    body:
-      encoding: UTF-8
-      string: |
-        Date,Mass in g
-        2014-10-23,18.3
-        2014-10-31,19
-        2014-11-05,22
-        2014-11-11,22.8
-        2014-12-02,24
-        2014-12-09,28.5
-        2014-12-16,28
-        2014-12-23,34.2
-        2015-01-04,32.3
-        2015-01-13,35.3
-        2015-01-20,40.4
-        2015-01-28,36.4
-        2015-02-08,33.7
-        2015-02-11,41.3
-        2015-02-18,43.2
-        2015-02-25,49.2
-        2015-03-10,54.7
-        2015-03-12,50.6
-        2015-03-19,53.3
-        2015-03-24,63.3
-        2015-04-02,65.6
-        2015-04-16,84
-        2015-04-23,85.1
-        2015-05-14,103.3
-        2015-05-17,97.8
-        2015-05-26,118.7
-        2015-06-10,136.7
-        2015-07-01,154
-        2015-07-14,176.8
-        2015-08-19,205.0
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:38 GMT
-- request:
-    method: get
-    uri: https://api.github.com/repos/pikesley/snake-data/contents?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - GitHub.com
-      Date:
-      - Mon, 28 Dec 2015 18:46:38 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '4598'
-      Status:
-      - 200 OK
-      X-Ratelimit-Limit:
-      - '5000'
-      X-Ratelimit-Remaining:
-      - '4972'
-      X-Ratelimit-Reset:
-      - '1451331167'
-      Cache-Control:
-      - public, max-age=60, s-maxage=60
-      Last-Modified:
-      - Thu, 23 Jul 2015 18:42:48 GMT
-      Etag:
-      - '"5b1d77c0dd848802c5dbf95b22ad4283"'
-      Vary:
-      - Accept
-      - Accept-Encoding
-      X-Github-Media-Type:
-      - github.v3; format=json
-      Access-Control-Allow-Credentials:
-      - 'true'
-      Access-Control-Expose-Headers:
-      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
-        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
-      Access-Control-Allow-Origin:
-      - "*"
-      Content-Security-Policy:
-      - default-src 'none'
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubdomains; preload
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - deny
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Served-By:
-      - ef96c2e493b28ffea49b891b085ed2dd
-      X-Github-Request-Id:
-      - 5102724B:1D260:195AF835:5681838E
-    body:
-      encoding: UTF-8
-      string: '[{"name":"README.md","path":"README.md","sha":"56fa2a57da9f365c2260e3479938f59774535aa9","size":379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/README.md","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/README.md","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","html":"https://github.com/pikesley/snake-data/blob/master/README.md"}},{"name":"feeds.csv","path":"feeds.csv","sha":"22faa82d87ed66d62483dfd9ec8db3e43875b77e","size":1379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/feeds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","html":"https://github.com/pikesley/snake-data/blob/master/feeds.csv"}},{"name":"length.csv","path":"length.csv","sha":"8d81d82abac88d3ef7ce74de0199a985af3df0d9","size":129,"url":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/length.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","html":"https://github.com/pikesley/snake-data/blob/master/length.csv"}},{"name":"sheds.csv","path":"sheds.csv","sha":"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","size":348,"url":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/sheds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","html":"https://github.com/pikesley/snake-data/blob/master/sheds.csv"}},{"name":"vivarium-cleans.csv","path":"vivarium-cleans.csv","sha":"c642e1cbab366182c683827266bacb18cfbb283b","size":199,"url":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","html":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv"}},{"name":"weight.csv","path":"weight.csv","sha":"e86c9b593025ca38a51aab3b93596cef9c4cdd37","size":489,"url":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/weight.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","html":"https://github.com/pikesley/snake-data/blob/master/weight.csv"}}]'
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:38 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"22faa82d87ed66d62483dfd9ec8db3e43875b77e"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1322:448D:25A4F35C:568182BD
-      Content-Length:
-      - '1379'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:38 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6327-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '1'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 01a57193d186a9f9c2a5e6f4e47b5e6675e4e13f
-      Expires:
-      - Mon, 28 Dec 2015 18:51:38 GMT
-      Source-Age:
-      - '208'
-    body:
-      encoding: UTF-8
-      string: |
-        Date,Food,Offered,Eaten
-        2014-09-28,Pinky,1,1
-        2014-10-02,Pinky,2,2
-        2014-10-06,Pinky,2,1
-        2014-10-12,Pinky,2,0
-        2014-10-19,Pinky,2,2
-        2014-10-26,Pinky,3,3
-        2014-11-02,Fuzzy,1,1
-        2014-11-09,Fuzzy,1,1
-        2014-11-16,Fuzzy,1,1
-        2014-11-23,Fuzzy,1,1
-        2014-12-07,Fuzzy,1,1
-        2014-12-14,Fuzzy,1,1
-        2015-01-01,Fuzzy,1,1
-        2015-01-11,Fuzzy,1,1
-        2015-01-18,Fuzzy,2,2
-        2015-01-25,Fuzzy,1,1
-        2015-02-01,Fuzzy,1,0
-        2015-02-08,Fuzzy,2,2
-        2015-02-15,Fuzzy,1,1
-        2015-02-22,Fuzzy,2,2
-        2015-03-01,Fuzzy,1,0
-        2015-03-08,Fuzzy,2,2
-        2015-03-16,Fuzzy,1,1
-        2015-03-22,Fuzzy,2,2
-        2015-03-29,Fuzzy,2,2
-        2015-04-05,Hopper,1,1
-        2015-04-12,Hopper,1,1
-        2015-04-19,Hopper,1,1
-        2015-04-26,Hopper,1,1
-        2015-05-10,Hopper,1,1
-        2015-05-17,Hopper,1,1
-        2015-05-24,Hopper,1,1
-        2015-05-31,Hopper,1,1
-        2015-06-07,Hopper,1,1
-        2015-06-14,Hopper,1,1
-        2015-06-21,Hopper,1,1
-        2015-07-05,Weaned Mouse,1,1
-        2015-07-12,Weaned Mouse,1,1
-        2015-07-19,Weaned Mouse,1,1
-        2015-07-26,Weaned Mouse,1,1
-        2015-08-02,Weaned Mouse,1,1
-        2015-08-09,Weaned Mouse,1,1
-        2015-08-16,Weaned Mouse,1,1
-        2015-08-23,Weaned Mouse,1,1
-        2015-08-30,Weaned Mouse,1,1
-        2015-09-06,Weaned Mouse,1,1
-        2015-10-04,Weaned Mouse,1,1
-        2015-10-11,Weaned Mouse,1,1
-        2015-10-18,Weaned Mouse,1,1
-        2015-10-25,Weaned Mouse,1,1
-        2015-11-01,Weaned Mouse,1,1
-        2015-11-11,Weaned Mouse,1,1
-        2015-11-22,Weaned Mouse,1,1
-        2015-11-29,Weaned Mouse,1,1
-        2015-12-06,Weaned Mouse,1,1
-        2015-12-13,Weaned Mouse,1,1
-        2015-12-23,Weaned Mouse,1,1
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:38 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"8d81d82abac88d3ef7ce74de0199a985af3df0d9"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1320:4486:E7CC8EB:568182BA
-      Content-Length:
-      - '129'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:38 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6321-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '2'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 54ad285e9acbf90bf115df57a954da7a1e6280c4
-      Expires:
-      - Mon, 28 Dec 2015 18:51:38 GMT
-      Source-Age:
-      - '208'
-    body:
-      encoding: UTF-8
-      string: |
-        Date,Length in m
-        2014-09-30,0.45
-        2014-10-09,0.50
-        2014-10-18,0.50
-        2014-12-12,0.55
-        2015-01-11,0.60
-        2015-01-28,0.65
-        2015-08-27,0.95
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:38 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1317:448B:33C89154:568182BE
-      Content-Length:
-      - '348'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:38 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6335-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '1'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 016c189cb26b66549a41cbabe92714dbdf0cde8a
-      Expires:
-      - Mon, 28 Dec 2015 18:51:38 GMT
-      Source-Age:
-      - '208'
-    body:
-      encoding: UTF-8
-      string: |
-        Serial,Blue phase observed,Shed completed
-        1,2014-10-13,2014-10-17
-        2,2014-11-16,2014-11-22
-        3,2014-12-23,2014-12-31
-        4,2015-01-31,2015-02-05
-        5,2015-03-01,2015-03-06
-        6,2015-04-07,2015-04-12
-        7,2015-05-02,2015-05-07
-        8,,2015-06-05
-        9,2015-07-08,2015-07-12
-        10,2015-08-12,2015-08-15
-        11,2015-09-12,2015-09-19
-        12,2015-11-01,2015-11-10
-        13,2015-12-13,2015-12-23
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:38 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"c642e1cbab366182c683827266bacb18cfbb283b"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1315:448C:35887F84:568182BE
-      Content-Length:
-      - '199'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:38 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6325-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '2'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 8b2f5ae6155f1895d40c253f00c34e8d0e37b58e
-      Expires:
-      - Mon, 28 Dec 2015 18:51:38 GMT
-      Source-Age:
-      - '209'
-    body:
-      encoding: UTF-8
-      string: |
-        Serial,Date
-        1,2014-10-25
-        2,2014-11-23
-        3,2014-12-21
-        4,2015-01-18
-        5,2015-02-14
-        6,2015-03-21
-        7,2015-04-18
-        8,2015-05-24
-        9,2015-06-17
-        10,2015-07-18
-        11,2015-08-15
-        12,2015-09-12
-        13,2015-10-18
-        14,2015-11-21
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:38 GMT
-- request:
-    method: get
-    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000
-      Etag:
-      - '"e86c9b593025ca38a51aab3b93596cef9c4cdd37"'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Cache-Control:
-      - max-age=300
-      X-Github-Request-Id:
-      - B91F1320:4486:E7CCC14:568182BE
-      Content-Length:
-      - '489'
-      Accept-Ranges:
-      - bytes
-      Date:
-      - Mon, 28 Dec 2015 18:46:38 GMT
-      Via:
-      - 1.1 varnish
-      Connection:
-      - keep-alive
-      X-Served-By:
-      - cache-lhr6335-LHR
-      X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '1'
-      Vary:
-      - Authorization,Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Fastly-Request-Id:
-      - 6ef462ebd0ce367ec27ffd8584b6cd36ddaaf16d
-      Expires:
-      - Mon, 28 Dec 2015 18:51:38 GMT
-      Source-Age:
-      - '208'
-    body:
-      encoding: UTF-8
-      string: |
-        Date,Mass in g
-        2014-10-23,18.3
-        2014-10-31,19
-        2014-11-05,22
-        2014-11-11,22.8
-        2014-12-02,24
-        2014-12-09,28.5
-        2014-12-16,28
-        2014-12-23,34.2
-        2015-01-04,32.3
-        2015-01-13,35.3
-        2015-01-20,40.4
-        2015-01-28,36.4
-        2015-02-08,33.7
-        2015-02-11,41.3
-        2015-02-18,43.2
-        2015-02-25,49.2
-        2015-03-10,54.7
-        2015-03-12,50.6
-        2015-03-19,53.3
-        2015-03-24,63.3
-        2015-04-02,65.6
-        2015-04-16,84
-        2015-04-23,85.1
-        2015-05-14,103.3
-        2015-05-17,97.8
-        2015-05-26,118.7
-        2015-06-10,136.7
-        2015-07-01,154
-        2015-07-14,176.8
-        2015-08-19,205.0
-    http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:38 GMT
-- request:
-    method: get
-    uri: https://api.github.com/repos/pikesley/snake-data/contents?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/vnd.github.v3+json
-      User-Agent:
-      - Dashboard v0.0.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - GitHub.com
-      Date:
-      - Mon, 28 Dec 2015 18:46:39 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '4598'
-      Status:
-      - 200 OK
-      X-Ratelimit-Limit:
-      - '5000'
-      X-Ratelimit-Remaining:
-      - '4971'
-      X-Ratelimit-Reset:
-      - '1451331167'
-      Cache-Control:
-      - public, max-age=60, s-maxage=60
-      Last-Modified:
-      - Thu, 23 Jul 2015 18:42:48 GMT
-      Etag:
-      - '"5b1d77c0dd848802c5dbf95b22ad4283"'
+      - '"2464347220382b60c962228f3c53fd30"'
       Vary:
       - Accept
       - Accept-Encoding
@@ -2143,12 +466,543 @@ http_interactions:
       X-Served-By:
       - 01d096e6cfe28f8aea352e988c332cd3
       X-Github-Request-Id:
-      - 5102724B:1D25F:13BDBDBB:5681838F
+      - 5102724B:14B61:1A70E450:56828A30
+    body:
+      encoding: UTF-8
+      string: '{"name":"sheds.csv","path":"sheds.csv","sha":"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","size":348,"url":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/sheds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv","type":"file","content":"U2VyaWFsLEJsdWUgcGhhc2Ugb2JzZXJ2ZWQsU2hlZCBjb21wbGV0ZWQKMSwy\nMDE0LTEwLTEzLDIwMTQtMTAtMTcKMiwyMDE0LTExLTE2LDIwMTQtMTEtMjIK\nMywyMDE0LTEyLTIzLDIwMTQtMTItMzEKNCwyMDE1LTAxLTMxLDIwMTUtMDIt\nMDUKNSwyMDE1LTAzLTAxLDIwMTUtMDMtMDYKNiwyMDE1LTA0LTA3LDIwMTUt\nMDQtMTIKNywyMDE1LTA1LTAyLDIwMTUtMDUtMDcKOCwsMjAxNS0wNi0wNQo5\nLDIwMTUtMDctMDgsMjAxNS0wNy0xMgoxMCwyMDE1LTA4LTEyLDIwMTUtMDgt\nMTUKMTEsMjAxNS0wOS0xMiwyMDE1LTA5LTE5CjEyLDIwMTUtMTEtMDEsMjAx\nNS0xMS0xMAoxMywyMDE1LTEyLTEzLDIwMTUtMTItMjMK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","html":"https://github.com/pikesley/snake-data/blob/master/sheds.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:12 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1217:6925:37502C38:56828A2F
+      Content-Length:
+      - '348'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:13 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lcy1132-LCY
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - bcdef8e85521ee19d56e365379926b294b1ceb26
+      Expires:
+      - Tue, 29 Dec 2015 13:32:13 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |
+        Serial,Blue phase observed,Shed completed
+        1,2014-10-13,2014-10-17
+        2,2014-11-16,2014-11-22
+        3,2014-12-23,2014-12-31
+        4,2015-01-31,2015-02-05
+        5,2015-03-01,2015-03-06
+        6,2015-04-07,2015-04-12
+        7,2015-05-02,2015-05-07
+        8,,2015-06-05
+        9,2015-07-08,2015-07-12
+        10,2015-08-12,2015-08-15
+        11,2015-09-12,2015-09-19
+        12,2015-11-01,2015-11-10
+        13,2015-12-13,2015-12-23
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:13 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1132'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4988'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"7e8a2c4d17c5da9f97b27396bcfa53cf"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - d594a23ec74671eba905bf91ef329026
+      X-Github-Request-Id:
+      - 5102724B:14B56:4AEC710:56828A31
+    body:
+      encoding: UTF-8
+      string: '{"name":"vivarium-cleans.csv","path":"vivarium-cleans.csv","sha":"c642e1cbab366182c683827266bacb18cfbb283b","size":199,"url":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv","type":"file","content":"U2VyaWFsLERhdGUKMSwyMDE0LTEwLTI1CjIsMjAxNC0xMS0yMwozLDIwMTQt\nMTItMjEKNCwyMDE1LTAxLTE4CjUsMjAxNS0wMi0xNAo2LDIwMTUtMDMtMjEK\nNywyMDE1LTA0LTE4CjgsMjAxNS0wNS0yNAo5LDIwMTUtMDYtMTcKMTAsMjAx\nNS0wNy0xOAoxMSwyMDE1LTA4LTE1CjEyLDIwMTUtMDktMTIKMTMsMjAxNS0x\nMC0xOAoxNCwyMDE1LTExLTIxCg==\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","html":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:13 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"c642e1cbab366182c683827266bacb18cfbb283b"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1216:6922:292D487D:56828A31
+      Content-Length:
+      - '199'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:13 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lcy1121-LCY
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - ebaf4a680a42508d3a28362504a245660ce28895
+      Expires:
+      - Tue, 29 Dec 2015 13:32:13 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |
+        Serial,Date
+        1,2014-10-25
+        2,2014-11-23
+        3,2014-12-21
+        4,2015-01-18
+        5,2015-02-14
+        6,2015-03-21
+        7,2015-04-18
+        8,2015-05-24
+        9,2015-06-17
+        10,2015-07-18
+        11,2015-08-15
+        12,2015-09-12
+        13,2015-10-18
+        14,2015-11-21
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:13 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1465'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4987'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"c4b3ce40ed01566c114afdcb64049e5f"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 474556b853193c38f1b14328ce2d1b7d
+      X-Github-Request-Id:
+      - 5102724B:14B63:1D15521A:56828A32
+    body:
+      encoding: UTF-8
+      string: '{"name":"weight.csv","path":"weight.csv","sha":"e86c9b593025ca38a51aab3b93596cef9c4cdd37","size":489,"url":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/weight.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv","type":"file","content":"RGF0ZSxNYXNzIGluIGcKMjAxNC0xMC0yMywxOC4zCjIwMTQtMTAtMzEsMTkK\nMjAxNC0xMS0wNSwyMgoyMDE0LTExLTExLDIyLjgKMjAxNC0xMi0wMiwyNAoy\nMDE0LTEyLTA5LDI4LjUKMjAxNC0xMi0xNiwyOAoyMDE0LTEyLTIzLDM0LjIK\nMjAxNS0wMS0wNCwzMi4zCjIwMTUtMDEtMTMsMzUuMwoyMDE1LTAxLTIwLDQw\nLjQKMjAxNS0wMS0yOCwzNi40CjIwMTUtMDItMDgsMzMuNwoyMDE1LTAyLTEx\nLDQxLjMKMjAxNS0wMi0xOCw0My4yCjIwMTUtMDItMjUsNDkuMgoyMDE1LTAz\nLTEwLDU0LjcKMjAxNS0wMy0xMiw1MC42CjIwMTUtMDMtMTksNTMuMwoyMDE1\nLTAzLTI0LDYzLjMKMjAxNS0wNC0wMiw2NS42CjIwMTUtMDQtMTYsODQKMjAx\nNS0wNC0yMyw4NS4xCjIwMTUtMDUtMTQsMTAzLjMKMjAxNS0wNS0xNyw5Ny44\nCjIwMTUtMDUtMjYsMTE4LjcKMjAxNS0wNi0xMCwxMzYuNwoyMDE1LTA3LTAx\nLDE1NAoyMDE1LTA3LTE0LDE3Ni44CjIwMTUtMDgtMTksMjA1LjAK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","html":"https://github.com/pikesley/snake-data/blob/master/weight.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:14 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"e86c9b593025ca38a51aab3b93596cef9c4cdd37"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1220:6925:375031E1:56828A32
+      Content-Length:
+      - '489'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:14 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lcy1121-LCY
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - f1d87e101a47d9a62e2fe97e19c7ad6f3ebdb39d
+      Expires:
+      - Tue, 29 Dec 2015 13:32:14 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |
+        Date,Mass in g
+        2014-10-23,18.3
+        2014-10-31,19
+        2014-11-05,22
+        2014-11-11,22.8
+        2014-12-02,24
+        2014-12-09,28.5
+        2014-12-16,28
+        2014-12-23,34.2
+        2015-01-04,32.3
+        2015-01-13,35.3
+        2015-01-20,40.4
+        2015-01-28,36.4
+        2015-02-08,33.7
+        2015-02-11,41.3
+        2015-02-18,43.2
+        2015-02-25,49.2
+        2015-03-10,54.7
+        2015-03-12,50.6
+        2015-03-19,53.3
+        2015-03-24,63.3
+        2015-04-02,65.6
+        2015-04-16,84
+        2015-04-23,85.1
+        2015-05-14,103.3
+        2015-05-17,97.8
+        2015-05-26,118.7
+        2015-06-10,136.7
+        2015-07-01,154
+        2015-07-14,176.8
+        2015-08-19,205.0
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:14 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4598'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4986'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Thu, 23 Jul 2015 18:42:48 GMT
+      Etag:
+      - '"5b1d77c0dd848802c5dbf95b22ad4283"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 593010132f82159af0ded24b4932e109
+      X-Github-Request-Id:
+      - 5102724B:14B60:147DAC2C:56828A32
     body:
       encoding: UTF-8
       string: '[{"name":"README.md","path":"README.md","sha":"56fa2a57da9f365c2260e3479938f59774535aa9","size":379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/README.md","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/README.md","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","html":"https://github.com/pikesley/snake-data/blob/master/README.md"}},{"name":"feeds.csv","path":"feeds.csv","sha":"22faa82d87ed66d62483dfd9ec8db3e43875b77e","size":1379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/feeds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","html":"https://github.com/pikesley/snake-data/blob/master/feeds.csv"}},{"name":"length.csv","path":"length.csv","sha":"8d81d82abac88d3ef7ce74de0199a985af3df0d9","size":129,"url":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/length.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","html":"https://github.com/pikesley/snake-data/blob/master/length.csv"}},{"name":"sheds.csv","path":"sheds.csv","sha":"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","size":348,"url":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/sheds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","html":"https://github.com/pikesley/snake-data/blob/master/sheds.csv"}},{"name":"vivarium-cleans.csv","path":"vivarium-cleans.csv","sha":"c642e1cbab366182c683827266bacb18cfbb283b","size":199,"url":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","html":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv"}},{"name":"weight.csv","path":"weight.csv","sha":"e86c9b593025ca38a51aab3b93596cef9c4cdd37","size":489,"url":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/weight.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","html":"https://github.com/pikesley/snake-data/blob/master/weight.csv"}}]'
     http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:39 GMT
+  recorded_at: Tue, 29 Dec 2015 13:27:15 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2687'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4985'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"87db99e13db3e24bd40be0bd0fc66dcc"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - e183f7c661b1bbc2c987b3c4dc7b04e0
+      X-Github-Request-Id:
+      - 5102724B:14B57:56D1B72:56828A33
+    body:
+      encoding: UTF-8
+      string: '{"name":"feeds.csv","path":"feeds.csv","sha":"22faa82d87ed66d62483dfd9ec8db3e43875b77e","size":1379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/feeds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv","type":"file","content":"RGF0ZSxGb29kLE9mZmVyZWQsRWF0ZW4KMjAxNC0wOS0yOCxQaW5reSwxLDEK\nMjAxNC0xMC0wMixQaW5reSwyLDIKMjAxNC0xMC0wNixQaW5reSwyLDEKMjAx\nNC0xMC0xMixQaW5reSwyLDAKMjAxNC0xMC0xOSxQaW5reSwyLDIKMjAxNC0x\nMC0yNixQaW5reSwzLDMKMjAxNC0xMS0wMixGdXp6eSwxLDEKMjAxNC0xMS0w\nOSxGdXp6eSwxLDEKMjAxNC0xMS0xNixGdXp6eSwxLDEKMjAxNC0xMS0yMyxG\ndXp6eSwxLDEKMjAxNC0xMi0wNyxGdXp6eSwxLDEKMjAxNC0xMi0xNCxGdXp6\neSwxLDEKMjAxNS0wMS0wMSxGdXp6eSwxLDEKMjAxNS0wMS0xMSxGdXp6eSwx\nLDEKMjAxNS0wMS0xOCxGdXp6eSwyLDIKMjAxNS0wMS0yNSxGdXp6eSwxLDEK\nMjAxNS0wMi0wMSxGdXp6eSwxLDAKMjAxNS0wMi0wOCxGdXp6eSwyLDIKMjAx\nNS0wMi0xNSxGdXp6eSwxLDEKMjAxNS0wMi0yMixGdXp6eSwyLDIKMjAxNS0w\nMy0wMSxGdXp6eSwxLDAKMjAxNS0wMy0wOCxGdXp6eSwyLDIKMjAxNS0wMy0x\nNixGdXp6eSwxLDEKMjAxNS0wMy0yMixGdXp6eSwyLDIKMjAxNS0wMy0yOSxG\ndXp6eSwyLDIKMjAxNS0wNC0wNSxIb3BwZXIsMSwxCjIwMTUtMDQtMTIsSG9w\ncGVyLDEsMQoyMDE1LTA0LTE5LEhvcHBlciwxLDEKMjAxNS0wNC0yNixIb3Bw\nZXIsMSwxCjIwMTUtMDUtMTAsSG9wcGVyLDEsMQoyMDE1LTA1LTE3LEhvcHBl\nciwxLDEKMjAxNS0wNS0yNCxIb3BwZXIsMSwxCjIwMTUtMDUtMzEsSG9wcGVy\nLDEsMQoyMDE1LTA2LTA3LEhvcHBlciwxLDEKMjAxNS0wNi0xNCxIb3BwZXIs\nMSwxCjIwMTUtMDYtMjEsSG9wcGVyLDEsMQoyMDE1LTA3LTA1LFdlYW5lZCBN\nb3VzZSwxLDEKMjAxNS0wNy0xMixXZWFuZWQgTW91c2UsMSwxCjIwMTUtMDct\nMTksV2VhbmVkIE1vdXNlLDEsMQoyMDE1LTA3LTI2LFdlYW5lZCBNb3VzZSwx\nLDEKMjAxNS0wOC0wMixXZWFuZWQgTW91c2UsMSwxCjIwMTUtMDgtMDksV2Vh\nbmVkIE1vdXNlLDEsMQoyMDE1LTA4LTE2LFdlYW5lZCBNb3VzZSwxLDEKMjAx\nNS0wOC0yMyxXZWFuZWQgTW91c2UsMSwxCjIwMTUtMDgtMzAsV2VhbmVkIE1v\ndXNlLDEsMQoyMDE1LTA5LTA2LFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMC0w\nNCxXZWFuZWQgTW91c2UsMSwxCjIwMTUtMTAtMTEsV2VhbmVkIE1vdXNlLDEs\nMQoyMDE1LTEwLTE4LFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMC0yNSxXZWFu\nZWQgTW91c2UsMSwxCjIwMTUtMTEtMDEsV2VhbmVkIE1vdXNlLDEsMQoyMDE1\nLTExLTExLFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMS0yMixXZWFuZWQgTW91\nc2UsMSwxCjIwMTUtMTEtMjksV2VhbmVkIE1vdXNlLDEsMQoyMDE1LTEyLTA2\nLFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMi0xMyxXZWFuZWQgTW91c2UsMSwx\nCjIwMTUtMTItMjMsV2VhbmVkIE1vdXNlLDEsMQo=\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","html":"https://github.com/pikesley/snake-data/blob/master/feeds.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:15 GMT
 - request:
     method: get
     uri: https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
@@ -2182,19 +1036,19 @@ http_interactions:
       Cache-Control:
       - max-age=300
       X-Github-Request-Id:
-      - B91F1322:448D:25A4F35C:568182BD
+      - B91F1222:6923:303EB3CD:56828A2F
       Content-Length:
       - '1379'
       Accept-Ranges:
       - bytes
       Date:
-      - Mon, 28 Dec 2015 18:46:39 GMT
+      - Tue, 29 Dec 2015 13:27:15 GMT
       Via:
       - 1.1 varnish
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-lhr6326-LHR
+      - cache-lcy1131-LCY
       X-Cache:
       - HIT
       X-Cache-Hits:
@@ -2204,11 +1058,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Fastly-Request-Id:
-      - deffff2b1b35214fb4a3af70c84ebd555e758813
+      - d46b334796ca14211651ca12ddc8829d871bc660
       Expires:
-      - Mon, 28 Dec 2015 18:51:39 GMT
+      - Tue, 29 Dec 2015 13:32:15 GMT
       Source-Age:
-      - '209'
+      - '4'
     body:
       encoding: UTF-8
       string: |
@@ -2271,7 +1125,76 @@ http_interactions:
         2015-12-13,Weaned Mouse,1,1
         2015-12-23,Weaned Mouse,1,1
     http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:39 GMT
+  recorded_at: Tue, 29 Dec 2015 13:27:15 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '969'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4984'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"fe5e67566d60252dcce1fc2df6f5d7a1"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - a6882e5cd2513376cb9481dbcd83f3a2
+      X-Github-Request-Id:
+      - 5102724B:14B62:1F09E19F:56828A33
+    body:
+      encoding: UTF-8
+      string: '{"name":"length.csv","path":"length.csv","sha":"8d81d82abac88d3ef7ce74de0199a985af3df0d9","size":129,"url":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/length.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv","type":"file","content":"RGF0ZSxMZW5ndGggaW4gbQoyMDE0LTA5LTMwLDAuNDUKMjAxNC0xMC0wOSww\nLjUwCjIwMTQtMTAtMTgsMC41MAoyMDE0LTEyLTEyLDAuNTUKMjAxNS0wMS0x\nMSwwLjYwCjIwMTUtMDEtMjgsMC42NQoyMDE1LTA4LTI3LDAuOTUK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","html":"https://github.com/pikesley/snake-data/blob/master/length.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:16 GMT
 - request:
     method: get
     uri: https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
@@ -2305,33 +1228,33 @@ http_interactions:
       Cache-Control:
       - max-age=300
       X-Github-Request-Id:
-      - B91F1320:4486:E7CC8EB:568182BA
+      - B91F1220:6925:37502CB2:56828A30
       Content-Length:
       - '129'
       Accept-Ranges:
       - bytes
       Date:
-      - Mon, 28 Dec 2015 18:46:39 GMT
+      - Tue, 29 Dec 2015 13:27:16 GMT
       Via:
       - 1.1 varnish
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-lhr6320-LHR
+      - cache-lcy1131-LCY
       X-Cache:
       - HIT
       X-Cache-Hits:
-      - '2'
+      - '1'
       Vary:
       - Authorization,Accept-Encoding
       Access-Control-Allow-Origin:
       - "*"
       X-Fastly-Request-Id:
-      - 45cd058218074b61b1934959f7e93d59fd3452ff
+      - 0e572dcc831410597e3422d0acc046d5319c21fa
       Expires:
-      - Mon, 28 Dec 2015 18:51:39 GMT
+      - Tue, 29 Dec 2015 13:32:16 GMT
       Source-Age:
-      - '209'
+      - '4'
     body:
       encoding: UTF-8
       string: |
@@ -2344,7 +1267,76 @@ http_interactions:
         2015-01-28,0.65
         2015-08-27,0.95
     http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:39 GMT
+  recorded_at: Tue, 29 Dec 2015 13:27:16 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1264'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4983'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"2464347220382b60c962228f3c53fd30"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - a51acaae89a7607fd7ee967627be18e4
+      X-Github-Request-Id:
+      - 5102724B:14B63:1D15544F:56828A34
+    body:
+      encoding: UTF-8
+      string: '{"name":"sheds.csv","path":"sheds.csv","sha":"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","size":348,"url":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/sheds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv","type":"file","content":"U2VyaWFsLEJsdWUgcGhhc2Ugb2JzZXJ2ZWQsU2hlZCBjb21wbGV0ZWQKMSwy\nMDE0LTEwLTEzLDIwMTQtMTAtMTcKMiwyMDE0LTExLTE2LDIwMTQtMTEtMjIK\nMywyMDE0LTEyLTIzLDIwMTQtMTItMzEKNCwyMDE1LTAxLTMxLDIwMTUtMDIt\nMDUKNSwyMDE1LTAzLTAxLDIwMTUtMDMtMDYKNiwyMDE1LTA0LTA3LDIwMTUt\nMDQtMTIKNywyMDE1LTA1LTAyLDIwMTUtMDUtMDcKOCwsMjAxNS0wNi0wNQo5\nLDIwMTUtMDctMDgsMjAxNS0wNy0xMgoxMCwyMDE1LTA4LTEyLDIwMTUtMDgt\nMTUKMTEsMjAxNS0wOS0xMiwyMDE1LTA5LTE5CjEyLDIwMTUtMTEtMDEsMjAx\nNS0xMS0xMAoxMywyMDE1LTEyLTEzLDIwMTUtMTItMjMK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","html":"https://github.com/pikesley/snake-data/blob/master/sheds.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:16 GMT
 - request:
     method: get
     uri: https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
@@ -2378,19 +1370,19 @@ http_interactions:
       Cache-Control:
       - max-age=300
       X-Github-Request-Id:
-      - B91F1317:448B:33C89154:568182BE
+      - B91F1217:6925:37502C38:56828A2F
       Content-Length:
       - '348'
       Accept-Ranges:
       - bytes
       Date:
-      - Mon, 28 Dec 2015 18:46:39 GMT
+      - Tue, 29 Dec 2015 13:27:16 GMT
       Via:
       - 1.1 varnish
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-lhr6332-LHR
+      - cache-lcy1133-LCY
       X-Cache:
       - HIT
       X-Cache-Hits:
@@ -2400,11 +1392,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Fastly-Request-Id:
-      - 930ea38e62149111a82c97a330bbcfbd8c9b741c
+      - 027b3eef1be82db44d7c647d821e531ea5822551
       Expires:
-      - Mon, 28 Dec 2015 18:51:39 GMT
+      - Tue, 29 Dec 2015 13:32:16 GMT
       Source-Age:
-      - '209'
+      - '4'
     body:
       encoding: UTF-8
       string: |
@@ -2423,7 +1415,76 @@ http_interactions:
         12,2015-11-01,2015-11-10
         13,2015-12-13,2015-12-23
     http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:39 GMT
+  recorded_at: Tue, 29 Dec 2015 13:27:16 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1132'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4982'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"7e8a2c4d17c5da9f97b27396bcfa53cf"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - a6882e5cd2513376cb9481dbcd83f3a2
+      X-Github-Request-Id:
+      - 5102724B:14B62:1F09E2AB:56828A34
+    body:
+      encoding: UTF-8
+      string: '{"name":"vivarium-cleans.csv","path":"vivarium-cleans.csv","sha":"c642e1cbab366182c683827266bacb18cfbb283b","size":199,"url":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv","type":"file","content":"U2VyaWFsLERhdGUKMSwyMDE0LTEwLTI1CjIsMjAxNC0xMS0yMwozLDIwMTQt\nMTItMjEKNCwyMDE1LTAxLTE4CjUsMjAxNS0wMi0xNAo2LDIwMTUtMDMtMjEK\nNywyMDE1LTA0LTE4CjgsMjAxNS0wNS0yNAo5LDIwMTUtMDYtMTcKMTAsMjAx\nNS0wNy0xOAoxMSwyMDE1LTA4LTE1CjEyLDIwMTUtMDktMTIKMTMsMjAxNS0x\nMC0xOAoxNCwyMDE1LTExLTIxCg==\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","html":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:17 GMT
 - request:
     method: get
     uri: https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
@@ -2457,19 +1518,19 @@ http_interactions:
       Cache-Control:
       - max-age=300
       X-Github-Request-Id:
-      - B91F1315:448C:35887F84:568182BE
+      - B91F1216:6922:292D487D:56828A31
       Content-Length:
       - '199'
       Accept-Ranges:
       - bytes
       Date:
-      - Mon, 28 Dec 2015 18:46:39 GMT
+      - Tue, 29 Dec 2015 13:27:17 GMT
       Via:
       - 1.1 varnish
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-lhr6326-LHR
+      - cache-lcy1134-LCY
       X-Cache:
       - HIT
       X-Cache-Hits:
@@ -2479,11 +1540,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Fastly-Request-Id:
-      - 25e7371bd1a511bc724c4558a1d4fbb7f31c0e08
+      - 74cf20873a87b79e29c3f41b25d338a2706d4aa7
       Expires:
-      - Mon, 28 Dec 2015 18:51:39 GMT
+      - Tue, 29 Dec 2015 13:32:17 GMT
       Source-Age:
-      - '209'
+      - '3'
     body:
       encoding: UTF-8
       string: |
@@ -2503,7 +1564,76 @@ http_interactions:
         13,2015-10-18
         14,2015-11-21
     http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:39 GMT
+  recorded_at: Tue, 29 Dec 2015 13:27:17 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1465'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4981'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"c4b3ce40ed01566c114afdcb64049e5f"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 2d7a5e35115884240089368322196939
+      X-Github-Request-Id:
+      - 5102724B:14B58:683B31B:56828A35
+    body:
+      encoding: UTF-8
+      string: '{"name":"weight.csv","path":"weight.csv","sha":"e86c9b593025ca38a51aab3b93596cef9c4cdd37","size":489,"url":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/weight.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv","type":"file","content":"RGF0ZSxNYXNzIGluIGcKMjAxNC0xMC0yMywxOC4zCjIwMTQtMTAtMzEsMTkK\nMjAxNC0xMS0wNSwyMgoyMDE0LTExLTExLDIyLjgKMjAxNC0xMi0wMiwyNAoy\nMDE0LTEyLTA5LDI4LjUKMjAxNC0xMi0xNiwyOAoyMDE0LTEyLTIzLDM0LjIK\nMjAxNS0wMS0wNCwzMi4zCjIwMTUtMDEtMTMsMzUuMwoyMDE1LTAxLTIwLDQw\nLjQKMjAxNS0wMS0yOCwzNi40CjIwMTUtMDItMDgsMzMuNwoyMDE1LTAyLTEx\nLDQxLjMKMjAxNS0wMi0xOCw0My4yCjIwMTUtMDItMjUsNDkuMgoyMDE1LTAz\nLTEwLDU0LjcKMjAxNS0wMy0xMiw1MC42CjIwMTUtMDMtMTksNTMuMwoyMDE1\nLTAzLTI0LDYzLjMKMjAxNS0wNC0wMiw2NS42CjIwMTUtMDQtMTYsODQKMjAx\nNS0wNC0yMyw4NS4xCjIwMTUtMDUtMTQsMTAzLjMKMjAxNS0wNS0xNyw5Ny44\nCjIwMTUtMDUtMjYsMTE4LjcKMjAxNS0wNi0xMCwxMzYuNwoyMDE1LTA3LTAx\nLDE1NAoyMDE1LTA3LTE0LDE3Ni44CjIwMTUtMDgtMTksMjA1LjAK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","html":"https://github.com/pikesley/snake-data/blob/master/weight.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:17 GMT
 - request:
     method: get
     uri: https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
@@ -2537,19 +1667,19 @@ http_interactions:
       Cache-Control:
       - max-age=300
       X-Github-Request-Id:
-      - B91F1320:4486:E7CCC14:568182BE
+      - B91F1220:6925:375031E1:56828A32
       Content-Length:
       - '489'
       Accept-Ranges:
       - bytes
       Date:
-      - Mon, 28 Dec 2015 18:46:39 GMT
+      - Tue, 29 Dec 2015 13:27:17 GMT
       Via:
       - 1.1 varnish
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-lhr6324-LHR
+      - cache-lcy1132-LCY
       X-Cache:
       - HIT
       X-Cache-Hits:
@@ -2559,11 +1689,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Fastly-Request-Id:
-      - 801f7464b3da574d8162c13eb44d00f1740d65e5
+      - c736b5916008e03265281d64e5965f415a0c9dd5
       Expires:
-      - Mon, 28 Dec 2015 18:51:39 GMT
+      - Tue, 29 Dec 2015 13:32:17 GMT
       Source-Age:
-      - '209'
+      - '3'
     body:
       encoding: UTF-8
       string: |
@@ -2599,5 +1729,1735 @@ http_interactions:
         2015-07-14,176.8
         2015-08-19,205.0
     http_version: 
-  recorded_at: Mon, 28 Dec 2015 18:46:39 GMT
+  recorded_at: Tue, 29 Dec 2015 13:27:17 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4598'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4980'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Thu, 23 Jul 2015 18:42:48 GMT
+      Etag:
+      - '"5b1d77c0dd848802c5dbf95b22ad4283"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 8a5c38021a5cd7cef7b8f49a296fee40
+      X-Github-Request-Id:
+      - 5102724B:14B5D:F1EEBDD:56828A36
+    body:
+      encoding: UTF-8
+      string: '[{"name":"README.md","path":"README.md","sha":"56fa2a57da9f365c2260e3479938f59774535aa9","size":379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/README.md","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/README.md","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","html":"https://github.com/pikesley/snake-data/blob/master/README.md"}},{"name":"feeds.csv","path":"feeds.csv","sha":"22faa82d87ed66d62483dfd9ec8db3e43875b77e","size":1379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/feeds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","html":"https://github.com/pikesley/snake-data/blob/master/feeds.csv"}},{"name":"length.csv","path":"length.csv","sha":"8d81d82abac88d3ef7ce74de0199a985af3df0d9","size":129,"url":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/length.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","html":"https://github.com/pikesley/snake-data/blob/master/length.csv"}},{"name":"sheds.csv","path":"sheds.csv","sha":"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","size":348,"url":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/sheds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","html":"https://github.com/pikesley/snake-data/blob/master/sheds.csv"}},{"name":"vivarium-cleans.csv","path":"vivarium-cleans.csv","sha":"c642e1cbab366182c683827266bacb18cfbb283b","size":199,"url":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","html":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv"}},{"name":"weight.csv","path":"weight.csv","sha":"e86c9b593025ca38a51aab3b93596cef9c4cdd37","size":489,"url":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/weight.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","html":"https://github.com/pikesley/snake-data/blob/master/weight.csv"}}]'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:18 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2687'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4979'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"87db99e13db3e24bd40be0bd0fc66dcc"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - e183f7c661b1bbc2c987b3c4dc7b04e0
+      X-Github-Request-Id:
+      - 5102724B:14B59:81588A8:56828A36
+    body:
+      encoding: UTF-8
+      string: '{"name":"feeds.csv","path":"feeds.csv","sha":"22faa82d87ed66d62483dfd9ec8db3e43875b77e","size":1379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/feeds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv","type":"file","content":"RGF0ZSxGb29kLE9mZmVyZWQsRWF0ZW4KMjAxNC0wOS0yOCxQaW5reSwxLDEK\nMjAxNC0xMC0wMixQaW5reSwyLDIKMjAxNC0xMC0wNixQaW5reSwyLDEKMjAx\nNC0xMC0xMixQaW5reSwyLDAKMjAxNC0xMC0xOSxQaW5reSwyLDIKMjAxNC0x\nMC0yNixQaW5reSwzLDMKMjAxNC0xMS0wMixGdXp6eSwxLDEKMjAxNC0xMS0w\nOSxGdXp6eSwxLDEKMjAxNC0xMS0xNixGdXp6eSwxLDEKMjAxNC0xMS0yMyxG\ndXp6eSwxLDEKMjAxNC0xMi0wNyxGdXp6eSwxLDEKMjAxNC0xMi0xNCxGdXp6\neSwxLDEKMjAxNS0wMS0wMSxGdXp6eSwxLDEKMjAxNS0wMS0xMSxGdXp6eSwx\nLDEKMjAxNS0wMS0xOCxGdXp6eSwyLDIKMjAxNS0wMS0yNSxGdXp6eSwxLDEK\nMjAxNS0wMi0wMSxGdXp6eSwxLDAKMjAxNS0wMi0wOCxGdXp6eSwyLDIKMjAx\nNS0wMi0xNSxGdXp6eSwxLDEKMjAxNS0wMi0yMixGdXp6eSwyLDIKMjAxNS0w\nMy0wMSxGdXp6eSwxLDAKMjAxNS0wMy0wOCxGdXp6eSwyLDIKMjAxNS0wMy0x\nNixGdXp6eSwxLDEKMjAxNS0wMy0yMixGdXp6eSwyLDIKMjAxNS0wMy0yOSxG\ndXp6eSwyLDIKMjAxNS0wNC0wNSxIb3BwZXIsMSwxCjIwMTUtMDQtMTIsSG9w\ncGVyLDEsMQoyMDE1LTA0LTE5LEhvcHBlciwxLDEKMjAxNS0wNC0yNixIb3Bw\nZXIsMSwxCjIwMTUtMDUtMTAsSG9wcGVyLDEsMQoyMDE1LTA1LTE3LEhvcHBl\nciwxLDEKMjAxNS0wNS0yNCxIb3BwZXIsMSwxCjIwMTUtMDUtMzEsSG9wcGVy\nLDEsMQoyMDE1LTA2LTA3LEhvcHBlciwxLDEKMjAxNS0wNi0xNCxIb3BwZXIs\nMSwxCjIwMTUtMDYtMjEsSG9wcGVyLDEsMQoyMDE1LTA3LTA1LFdlYW5lZCBN\nb3VzZSwxLDEKMjAxNS0wNy0xMixXZWFuZWQgTW91c2UsMSwxCjIwMTUtMDct\nMTksV2VhbmVkIE1vdXNlLDEsMQoyMDE1LTA3LTI2LFdlYW5lZCBNb3VzZSwx\nLDEKMjAxNS0wOC0wMixXZWFuZWQgTW91c2UsMSwxCjIwMTUtMDgtMDksV2Vh\nbmVkIE1vdXNlLDEsMQoyMDE1LTA4LTE2LFdlYW5lZCBNb3VzZSwxLDEKMjAx\nNS0wOC0yMyxXZWFuZWQgTW91c2UsMSwxCjIwMTUtMDgtMzAsV2VhbmVkIE1v\ndXNlLDEsMQoyMDE1LTA5LTA2LFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMC0w\nNCxXZWFuZWQgTW91c2UsMSwxCjIwMTUtMTAtMTEsV2VhbmVkIE1vdXNlLDEs\nMQoyMDE1LTEwLTE4LFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMC0yNSxXZWFu\nZWQgTW91c2UsMSwxCjIwMTUtMTEtMDEsV2VhbmVkIE1vdXNlLDEsMQoyMDE1\nLTExLTExLFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMS0yMixXZWFuZWQgTW91\nc2UsMSwxCjIwMTUtMTEtMjksV2VhbmVkIE1vdXNlLDEsMQoyMDE1LTEyLTA2\nLFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMi0xMyxXZWFuZWQgTW91c2UsMSwx\nCjIwMTUtMTItMjMsV2VhbmVkIE1vdXNlLDEsMQo=\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","html":"https://github.com/pikesley/snake-data/blob/master/feeds.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:18 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"22faa82d87ed66d62483dfd9ec8db3e43875b77e"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1222:6923:303EB3CD:56828A2F
+      Content-Length:
+      - '1379'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:18 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lcy1127-LCY
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 9f94098a59895cdb18c25d3049c682dbbad25ef8
+      Expires:
+      - Tue, 29 Dec 2015 13:32:18 GMT
+      Source-Age:
+      - '8'
+    body:
+      encoding: UTF-8
+      string: |
+        Date,Food,Offered,Eaten
+        2014-09-28,Pinky,1,1
+        2014-10-02,Pinky,2,2
+        2014-10-06,Pinky,2,1
+        2014-10-12,Pinky,2,0
+        2014-10-19,Pinky,2,2
+        2014-10-26,Pinky,3,3
+        2014-11-02,Fuzzy,1,1
+        2014-11-09,Fuzzy,1,1
+        2014-11-16,Fuzzy,1,1
+        2014-11-23,Fuzzy,1,1
+        2014-12-07,Fuzzy,1,1
+        2014-12-14,Fuzzy,1,1
+        2015-01-01,Fuzzy,1,1
+        2015-01-11,Fuzzy,1,1
+        2015-01-18,Fuzzy,2,2
+        2015-01-25,Fuzzy,1,1
+        2015-02-01,Fuzzy,1,0
+        2015-02-08,Fuzzy,2,2
+        2015-02-15,Fuzzy,1,1
+        2015-02-22,Fuzzy,2,2
+        2015-03-01,Fuzzy,1,0
+        2015-03-08,Fuzzy,2,2
+        2015-03-16,Fuzzy,1,1
+        2015-03-22,Fuzzy,2,2
+        2015-03-29,Fuzzy,2,2
+        2015-04-05,Hopper,1,1
+        2015-04-12,Hopper,1,1
+        2015-04-19,Hopper,1,1
+        2015-04-26,Hopper,1,1
+        2015-05-10,Hopper,1,1
+        2015-05-17,Hopper,1,1
+        2015-05-24,Hopper,1,1
+        2015-05-31,Hopper,1,1
+        2015-06-07,Hopper,1,1
+        2015-06-14,Hopper,1,1
+        2015-06-21,Hopper,1,1
+        2015-07-05,Weaned Mouse,1,1
+        2015-07-12,Weaned Mouse,1,1
+        2015-07-19,Weaned Mouse,1,1
+        2015-07-26,Weaned Mouse,1,1
+        2015-08-02,Weaned Mouse,1,1
+        2015-08-09,Weaned Mouse,1,1
+        2015-08-16,Weaned Mouse,1,1
+        2015-08-23,Weaned Mouse,1,1
+        2015-08-30,Weaned Mouse,1,1
+        2015-09-06,Weaned Mouse,1,1
+        2015-10-04,Weaned Mouse,1,1
+        2015-10-11,Weaned Mouse,1,1
+        2015-10-18,Weaned Mouse,1,1
+        2015-10-25,Weaned Mouse,1,1
+        2015-11-01,Weaned Mouse,1,1
+        2015-11-11,Weaned Mouse,1,1
+        2015-11-22,Weaned Mouse,1,1
+        2015-11-29,Weaned Mouse,1,1
+        2015-12-06,Weaned Mouse,1,1
+        2015-12-13,Weaned Mouse,1,1
+        2015-12-23,Weaned Mouse,1,1
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:18 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '969'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4978'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"fe5e67566d60252dcce1fc2df6f5d7a1"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - a474937f3b2fa272558fa6dc951018ad
+      X-Github-Request-Id:
+      - 5102724B:14B62:1F09E4F6:56828A37
+    body:
+      encoding: UTF-8
+      string: '{"name":"length.csv","path":"length.csv","sha":"8d81d82abac88d3ef7ce74de0199a985af3df0d9","size":129,"url":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/length.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv","type":"file","content":"RGF0ZSxMZW5ndGggaW4gbQoyMDE0LTA5LTMwLDAuNDUKMjAxNC0xMC0wOSww\nLjUwCjIwMTQtMTAtMTgsMC41MAoyMDE0LTEyLTEyLDAuNTUKMjAxNS0wMS0x\nMSwwLjYwCjIwMTUtMDEtMjgsMC42NQoyMDE1LTA4LTI3LDAuOTUK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","html":"https://github.com/pikesley/snake-data/blob/master/length.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:19 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"8d81d82abac88d3ef7ce74de0199a985af3df0d9"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1220:6925:37502CB2:56828A30
+      Content-Length:
+      - '129'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:19 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lcy1120-LCY
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 138d3839a0f30cb92939f56cc17f152038f2e9eb
+      Expires:
+      - Tue, 29 Dec 2015 13:32:19 GMT
+      Source-Age:
+      - '7'
+    body:
+      encoding: UTF-8
+      string: |
+        Date,Length in m
+        2014-09-30,0.45
+        2014-10-09,0.50
+        2014-10-18,0.50
+        2014-12-12,0.55
+        2015-01-11,0.60
+        2015-01-28,0.65
+        2015-08-27,0.95
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:19 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1264'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4977'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"2464347220382b60c962228f3c53fd30"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 474556b853193c38f1b14328ce2d1b7d
+      X-Github-Request-Id:
+      - 5102724B:14B63:1D155726:56828A37
+    body:
+      encoding: UTF-8
+      string: '{"name":"sheds.csv","path":"sheds.csv","sha":"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","size":348,"url":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/sheds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv","type":"file","content":"U2VyaWFsLEJsdWUgcGhhc2Ugb2JzZXJ2ZWQsU2hlZCBjb21wbGV0ZWQKMSwy\nMDE0LTEwLTEzLDIwMTQtMTAtMTcKMiwyMDE0LTExLTE2LDIwMTQtMTEtMjIK\nMywyMDE0LTEyLTIzLDIwMTQtMTItMzEKNCwyMDE1LTAxLTMxLDIwMTUtMDIt\nMDUKNSwyMDE1LTAzLTAxLDIwMTUtMDMtMDYKNiwyMDE1LTA0LTA3LDIwMTUt\nMDQtMTIKNywyMDE1LTA1LTAyLDIwMTUtMDUtMDcKOCwsMjAxNS0wNi0wNQo5\nLDIwMTUtMDctMDgsMjAxNS0wNy0xMgoxMCwyMDE1LTA4LTEyLDIwMTUtMDgt\nMTUKMTEsMjAxNS0wOS0xMiwyMDE1LTA5LTE5CjEyLDIwMTUtMTEtMDEsMjAx\nNS0xMS0xMAoxMywyMDE1LTEyLTEzLDIwMTUtMTItMjMK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","html":"https://github.com/pikesley/snake-data/blob/master/sheds.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:21 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1317:2F40:17DB5507:56828A39
+      Content-Length:
+      - '348'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:21 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lhr6335-LHR
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - cd74b34f6d81defb72b3801375dcbc94b3b7eaf3
+      Expires:
+      - Tue, 29 Dec 2015 13:32:21 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |
+        Serial,Blue phase observed,Shed completed
+        1,2014-10-13,2014-10-17
+        2,2014-11-16,2014-11-22
+        3,2014-12-23,2014-12-31
+        4,2015-01-31,2015-02-05
+        5,2015-03-01,2015-03-06
+        6,2015-04-07,2015-04-12
+        7,2015-05-02,2015-05-07
+        8,,2015-06-05
+        9,2015-07-08,2015-07-12
+        10,2015-08-12,2015-08-15
+        11,2015-09-12,2015-09-19
+        12,2015-11-01,2015-11-10
+        13,2015-12-13,2015-12-23
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:21 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1132'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4976'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"7e8a2c4d17c5da9f97b27396bcfa53cf"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 01d096e6cfe28f8aea352e988c332cd3
+      X-Github-Request-Id:
+      - 5102724B:1D25E:F0913F7:56828A3A
+    body:
+      encoding: UTF-8
+      string: '{"name":"vivarium-cleans.csv","path":"vivarium-cleans.csv","sha":"c642e1cbab366182c683827266bacb18cfbb283b","size":199,"url":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv","type":"file","content":"U2VyaWFsLERhdGUKMSwyMDE0LTEwLTI1CjIsMjAxNC0xMS0yMwozLDIwMTQt\nMTItMjEKNCwyMDE1LTAxLTE4CjUsMjAxNS0wMi0xNAo2LDIwMTUtMDMtMjEK\nNywyMDE1LTA0LTE4CjgsMjAxNS0wNS0yNAo5LDIwMTUtMDYtMTcKMTAsMjAx\nNS0wNy0xOAoxMSwyMDE1LTA4LTE1CjEyLDIwMTUtMDktMTIKMTMsMjAxNS0x\nMC0xOAoxNCwyMDE1LTExLTIxCg==\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","html":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:22 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"c642e1cbab366182c683827266bacb18cfbb283b"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1315:2F40:17DB55B1:56828A3A
+      Content-Length:
+      - '199'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:22 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lhr6335-LHR
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 82dede765cb40730c573842a8e67c54391cdff25
+      Expires:
+      - Tue, 29 Dec 2015 13:32:22 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |
+        Serial,Date
+        1,2014-10-25
+        2,2014-11-23
+        3,2014-12-21
+        4,2015-01-18
+        5,2015-02-14
+        6,2015-03-21
+        7,2015-04-18
+        8,2015-05-24
+        9,2015-06-17
+        10,2015-07-18
+        11,2015-08-15
+        12,2015-09-12
+        13,2015-10-18
+        14,2015-11-21
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:22 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1465'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4975'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"c4b3ce40ed01566c114afdcb64049e5f"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - c6c65e5196703428e7641f7d1e9bc353
+      X-Github-Request-Id:
+      - 5102724B:1D25E:F09146D:56828A3B
+    body:
+      encoding: UTF-8
+      string: '{"name":"weight.csv","path":"weight.csv","sha":"e86c9b593025ca38a51aab3b93596cef9c4cdd37","size":489,"url":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/weight.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv","type":"file","content":"RGF0ZSxNYXNzIGluIGcKMjAxNC0xMC0yMywxOC4zCjIwMTQtMTAtMzEsMTkK\nMjAxNC0xMS0wNSwyMgoyMDE0LTExLTExLDIyLjgKMjAxNC0xMi0wMiwyNAoy\nMDE0LTEyLTA5LDI4LjUKMjAxNC0xMi0xNiwyOAoyMDE0LTEyLTIzLDM0LjIK\nMjAxNS0wMS0wNCwzMi4zCjIwMTUtMDEtMTMsMzUuMwoyMDE1LTAxLTIwLDQw\nLjQKMjAxNS0wMS0yOCwzNi40CjIwMTUtMDItMDgsMzMuNwoyMDE1LTAyLTEx\nLDQxLjMKMjAxNS0wMi0xOCw0My4yCjIwMTUtMDItMjUsNDkuMgoyMDE1LTAz\nLTEwLDU0LjcKMjAxNS0wMy0xMiw1MC42CjIwMTUtMDMtMTksNTMuMwoyMDE1\nLTAzLTI0LDYzLjMKMjAxNS0wNC0wMiw2NS42CjIwMTUtMDQtMTYsODQKMjAx\nNS0wNC0yMyw4NS4xCjIwMTUtMDUtMTQsMTAzLjMKMjAxNS0wNS0xNyw5Ny44\nCjIwMTUtMDUtMjYsMTE4LjcKMjAxNS0wNi0xMCwxMzYuNwoyMDE1LTA3LTAx\nLDE1NAoyMDE1LTA3LTE0LDE3Ni44CjIwMTUtMDgtMTksMjA1LjAK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","html":"https://github.com/pikesley/snake-data/blob/master/weight.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:23 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"e86c9b593025ca38a51aab3b93596cef9c4cdd37"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1320:2F46:27B74E68:56828A3B
+      Content-Length:
+      - '489'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:23 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lhr6326-LHR
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - ceb54f65ded261c51c05fa295d919f4e17396190
+      Expires:
+      - Tue, 29 Dec 2015 13:32:23 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |
+        Date,Mass in g
+        2014-10-23,18.3
+        2014-10-31,19
+        2014-11-05,22
+        2014-11-11,22.8
+        2014-12-02,24
+        2014-12-09,28.5
+        2014-12-16,28
+        2014-12-23,34.2
+        2015-01-04,32.3
+        2015-01-13,35.3
+        2015-01-20,40.4
+        2015-01-28,36.4
+        2015-02-08,33.7
+        2015-02-11,41.3
+        2015-02-18,43.2
+        2015-02-25,49.2
+        2015-03-10,54.7
+        2015-03-12,50.6
+        2015-03-19,53.3
+        2015-03-24,63.3
+        2015-04-02,65.6
+        2015-04-16,84
+        2015-04-23,85.1
+        2015-05-14,103.3
+        2015-05-17,97.8
+        2015-05-26,118.7
+        2015-06-10,136.7
+        2015-07-01,154
+        2015-07-14,176.8
+        2015-08-19,205.0
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:23 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4598'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4974'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Thu, 23 Jul 2015 18:42:48 GMT
+      Etag:
+      - '"5b1d77c0dd848802c5dbf95b22ad4283"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 5aeb3f30c9e3ef6ef7bcbcddfd9a68f7
+      X-Github-Request-Id:
+      - 5102724B:1D260:1A2C4B58:56828A3B
+    body:
+      encoding: UTF-8
+      string: '[{"name":"README.md","path":"README.md","sha":"56fa2a57da9f365c2260e3479938f59774535aa9","size":379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/README.md","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/README.md","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/README.md?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/56fa2a57da9f365c2260e3479938f59774535aa9","html":"https://github.com/pikesley/snake-data/blob/master/README.md"}},{"name":"feeds.csv","path":"feeds.csv","sha":"22faa82d87ed66d62483dfd9ec8db3e43875b77e","size":1379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/feeds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","html":"https://github.com/pikesley/snake-data/blob/master/feeds.csv"}},{"name":"length.csv","path":"length.csv","sha":"8d81d82abac88d3ef7ce74de0199a985af3df0d9","size":129,"url":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/length.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","html":"https://github.com/pikesley/snake-data/blob/master/length.csv"}},{"name":"sheds.csv","path":"sheds.csv","sha":"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","size":348,"url":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/sheds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","html":"https://github.com/pikesley/snake-data/blob/master/sheds.csv"}},{"name":"vivarium-cleans.csv","path":"vivarium-cleans.csv","sha":"c642e1cbab366182c683827266bacb18cfbb283b","size":199,"url":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","html":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv"}},{"name":"weight.csv","path":"weight.csv","sha":"e86c9b593025ca38a51aab3b93596cef9c4cdd37","size":489,"url":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/weight.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","html":"https://github.com/pikesley/snake-data/blob/master/weight.csv"}}]'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:24 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2687'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4973'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"87db99e13db3e24bd40be0bd0fc66dcc"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 593010132f82159af0ded24b4932e109
+      X-Github-Request-Id:
+      - 5102724B:1D25F:145B05DB:56828A3C
+    body:
+      encoding: UTF-8
+      string: '{"name":"feeds.csv","path":"feeds.csv","sha":"22faa82d87ed66d62483dfd9ec8db3e43875b77e","size":1379,"url":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/feeds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv","type":"file","content":"RGF0ZSxGb29kLE9mZmVyZWQsRWF0ZW4KMjAxNC0wOS0yOCxQaW5reSwxLDEK\nMjAxNC0xMC0wMixQaW5reSwyLDIKMjAxNC0xMC0wNixQaW5reSwyLDEKMjAx\nNC0xMC0xMixQaW5reSwyLDAKMjAxNC0xMC0xOSxQaW5reSwyLDIKMjAxNC0x\nMC0yNixQaW5reSwzLDMKMjAxNC0xMS0wMixGdXp6eSwxLDEKMjAxNC0xMS0w\nOSxGdXp6eSwxLDEKMjAxNC0xMS0xNixGdXp6eSwxLDEKMjAxNC0xMS0yMyxG\ndXp6eSwxLDEKMjAxNC0xMi0wNyxGdXp6eSwxLDEKMjAxNC0xMi0xNCxGdXp6\neSwxLDEKMjAxNS0wMS0wMSxGdXp6eSwxLDEKMjAxNS0wMS0xMSxGdXp6eSwx\nLDEKMjAxNS0wMS0xOCxGdXp6eSwyLDIKMjAxNS0wMS0yNSxGdXp6eSwxLDEK\nMjAxNS0wMi0wMSxGdXp6eSwxLDAKMjAxNS0wMi0wOCxGdXp6eSwyLDIKMjAx\nNS0wMi0xNSxGdXp6eSwxLDEKMjAxNS0wMi0yMixGdXp6eSwyLDIKMjAxNS0w\nMy0wMSxGdXp6eSwxLDAKMjAxNS0wMy0wOCxGdXp6eSwyLDIKMjAxNS0wMy0x\nNixGdXp6eSwxLDEKMjAxNS0wMy0yMixGdXp6eSwyLDIKMjAxNS0wMy0yOSxG\ndXp6eSwyLDIKMjAxNS0wNC0wNSxIb3BwZXIsMSwxCjIwMTUtMDQtMTIsSG9w\ncGVyLDEsMQoyMDE1LTA0LTE5LEhvcHBlciwxLDEKMjAxNS0wNC0yNixIb3Bw\nZXIsMSwxCjIwMTUtMDUtMTAsSG9wcGVyLDEsMQoyMDE1LTA1LTE3LEhvcHBl\nciwxLDEKMjAxNS0wNS0yNCxIb3BwZXIsMSwxCjIwMTUtMDUtMzEsSG9wcGVy\nLDEsMQoyMDE1LTA2LTA3LEhvcHBlciwxLDEKMjAxNS0wNi0xNCxIb3BwZXIs\nMSwxCjIwMTUtMDYtMjEsSG9wcGVyLDEsMQoyMDE1LTA3LTA1LFdlYW5lZCBN\nb3VzZSwxLDEKMjAxNS0wNy0xMixXZWFuZWQgTW91c2UsMSwxCjIwMTUtMDct\nMTksV2VhbmVkIE1vdXNlLDEsMQoyMDE1LTA3LTI2LFdlYW5lZCBNb3VzZSwx\nLDEKMjAxNS0wOC0wMixXZWFuZWQgTW91c2UsMSwxCjIwMTUtMDgtMDksV2Vh\nbmVkIE1vdXNlLDEsMQoyMDE1LTA4LTE2LFdlYW5lZCBNb3VzZSwxLDEKMjAx\nNS0wOC0yMyxXZWFuZWQgTW91c2UsMSwxCjIwMTUtMDgtMzAsV2VhbmVkIE1v\ndXNlLDEsMQoyMDE1LTA5LTA2LFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMC0w\nNCxXZWFuZWQgTW91c2UsMSwxCjIwMTUtMTAtMTEsV2VhbmVkIE1vdXNlLDEs\nMQoyMDE1LTEwLTE4LFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMC0yNSxXZWFu\nZWQgTW91c2UsMSwxCjIwMTUtMTEtMDEsV2VhbmVkIE1vdXNlLDEsMQoyMDE1\nLTExLTExLFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMS0yMixXZWFuZWQgTW91\nc2UsMSwxCjIwMTUtMTEtMjksV2VhbmVkIE1vdXNlLDEsMQoyMDE1LTEyLTA2\nLFdlYW5lZCBNb3VzZSwxLDEKMjAxNS0xMi0xMyxXZWFuZWQgTW91c2UsMSwx\nCjIwMTUtMTItMjMsV2VhbmVkIE1vdXNlLDEsMQo=\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/feeds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/22faa82d87ed66d62483dfd9ec8db3e43875b77e","html":"https://github.com/pikesley/snake-data/blob/master/feeds.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:24 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/feeds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"22faa82d87ed66d62483dfd9ec8db3e43875b77e"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1322:2F41:213A0838:56828A3C
+      Content-Length:
+      - '1379'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:24 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lhr6324-LHR
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 350aa65a3d55c529906a71b0d25eb9a9c76f543f
+      Expires:
+      - Tue, 29 Dec 2015 13:32:24 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |
+        Date,Food,Offered,Eaten
+        2014-09-28,Pinky,1,1
+        2014-10-02,Pinky,2,2
+        2014-10-06,Pinky,2,1
+        2014-10-12,Pinky,2,0
+        2014-10-19,Pinky,2,2
+        2014-10-26,Pinky,3,3
+        2014-11-02,Fuzzy,1,1
+        2014-11-09,Fuzzy,1,1
+        2014-11-16,Fuzzy,1,1
+        2014-11-23,Fuzzy,1,1
+        2014-12-07,Fuzzy,1,1
+        2014-12-14,Fuzzy,1,1
+        2015-01-01,Fuzzy,1,1
+        2015-01-11,Fuzzy,1,1
+        2015-01-18,Fuzzy,2,2
+        2015-01-25,Fuzzy,1,1
+        2015-02-01,Fuzzy,1,0
+        2015-02-08,Fuzzy,2,2
+        2015-02-15,Fuzzy,1,1
+        2015-02-22,Fuzzy,2,2
+        2015-03-01,Fuzzy,1,0
+        2015-03-08,Fuzzy,2,2
+        2015-03-16,Fuzzy,1,1
+        2015-03-22,Fuzzy,2,2
+        2015-03-29,Fuzzy,2,2
+        2015-04-05,Hopper,1,1
+        2015-04-12,Hopper,1,1
+        2015-04-19,Hopper,1,1
+        2015-04-26,Hopper,1,1
+        2015-05-10,Hopper,1,1
+        2015-05-17,Hopper,1,1
+        2015-05-24,Hopper,1,1
+        2015-05-31,Hopper,1,1
+        2015-06-07,Hopper,1,1
+        2015-06-14,Hopper,1,1
+        2015-06-21,Hopper,1,1
+        2015-07-05,Weaned Mouse,1,1
+        2015-07-12,Weaned Mouse,1,1
+        2015-07-19,Weaned Mouse,1,1
+        2015-07-26,Weaned Mouse,1,1
+        2015-08-02,Weaned Mouse,1,1
+        2015-08-09,Weaned Mouse,1,1
+        2015-08-16,Weaned Mouse,1,1
+        2015-08-23,Weaned Mouse,1,1
+        2015-08-30,Weaned Mouse,1,1
+        2015-09-06,Weaned Mouse,1,1
+        2015-10-04,Weaned Mouse,1,1
+        2015-10-11,Weaned Mouse,1,1
+        2015-10-18,Weaned Mouse,1,1
+        2015-10-25,Weaned Mouse,1,1
+        2015-11-01,Weaned Mouse,1,1
+        2015-11-11,Weaned Mouse,1,1
+        2015-11-22,Weaned Mouse,1,1
+        2015-11-29,Weaned Mouse,1,1
+        2015-12-06,Weaned Mouse,1,1
+        2015-12-13,Weaned Mouse,1,1
+        2015-12-23,Weaned Mouse,1,1
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:24 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '969'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4972'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"fe5e67566d60252dcce1fc2df6f5d7a1"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 52437fedc85beec8da3449496900fb9a
+      X-Github-Request-Id:
+      - 5102724B:1D262:1D502C79:56828A3C
+    body:
+      encoding: UTF-8
+      string: '{"name":"length.csv","path":"length.csv","sha":"8d81d82abac88d3ef7ce74de0199a985af3df0d9","size":129,"url":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/length.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv","type":"file","content":"RGF0ZSxMZW5ndGggaW4gbQoyMDE0LTA5LTMwLDAuNDUKMjAxNC0xMC0wOSww\nLjUwCjIwMTQtMTAtMTgsMC41MAoyMDE0LTEyLTEyLDAuNTUKMjAxNS0wMS0x\nMSwwLjYwCjIwMTUtMDEtMjgsMC42NQoyMDE1LTA4LTI3LDAuOTUK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/length.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/8d81d82abac88d3ef7ce74de0199a985af3df0d9","html":"https://github.com/pikesley/snake-data/blob/master/length.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:25 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"8d81d82abac88d3ef7ce74de0199a985af3df0d9"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1320:2F44:370728E0:56828A3D
+      Content-Length:
+      - '129'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:25 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lhr6327-LHR
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - ebbd9871445c92c1641a105f8ec39c6da2d05e62
+      Expires:
+      - Tue, 29 Dec 2015 13:32:25 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |
+        Date,Length in m
+        2014-09-30,0.45
+        2014-10-09,0.50
+        2014-10-18,0.50
+        2014-12-12,0.55
+        2015-01-11,0.60
+        2015-01-28,0.65
+        2015-08-27,0.95
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:25 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1264'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4971'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"2464347220382b60c962228f3c53fd30"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - e183f7c661b1bbc2c987b3c4dc7b04e0
+      X-Github-Request-Id:
+      - 5102724B:1D261:1ED6386B:56828A3D
+    body:
+      encoding: UTF-8
+      string: '{"name":"sheds.csv","path":"sheds.csv","sha":"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","size":348,"url":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/sheds.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv","type":"file","content":"U2VyaWFsLEJsdWUgcGhhc2Ugb2JzZXJ2ZWQsU2hlZCBjb21wbGV0ZWQKMSwy\nMDE0LTEwLTEzLDIwMTQtMTAtMTcKMiwyMDE0LTExLTE2LDIwMTQtMTEtMjIK\nMywyMDE0LTEyLTIzLDIwMTQtMTItMzEKNCwyMDE1LTAxLTMxLDIwMTUtMDIt\nMDUKNSwyMDE1LTAzLTAxLDIwMTUtMDMtMDYKNiwyMDE1LTA0LTA3LDIwMTUt\nMDQtMTIKNywyMDE1LTA1LTAyLDIwMTUtMDUtMDcKOCwsMjAxNS0wNi0wNQo5\nLDIwMTUtMDctMDgsMjAxNS0wNy0xMgoxMCwyMDE1LTA4LTEyLDIwMTUtMDgt\nMTUKMTEsMjAxNS0wOS0xMiwyMDE1LTA5LTE5CjEyLDIwMTUtMTEtMDEsMjAx\nNS0xMS0xMAoxMywyMDE1LTEyLTEzLDIwMTUtMTItMjMK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/sheds.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0","html":"https://github.com/pikesley/snake-data/blob/master/sheds.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:25 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/sheds.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"ee119ef5c5591ab85412cdfa1edf64b9aadfdbd0"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1317:2F40:17DB5507:56828A39
+      Content-Length:
+      - '348'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:26 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lhr6327-LHR
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - f5f934b4dbb199a6d871bb8232ac82e200d8c6de
+      Expires:
+      - Tue, 29 Dec 2015 13:32:26 GMT
+      Source-Age:
+      - '4'
+    body:
+      encoding: UTF-8
+      string: |
+        Serial,Blue phase observed,Shed completed
+        1,2014-10-13,2014-10-17
+        2,2014-11-16,2014-11-22
+        3,2014-12-23,2014-12-31
+        4,2015-01-31,2015-02-05
+        5,2015-03-01,2015-03-06
+        6,2015-04-07,2015-04-12
+        7,2015-05-02,2015-05-07
+        8,,2015-06-05
+        9,2015-07-08,2015-07-12
+        10,2015-08-12,2015-08-15
+        11,2015-09-12,2015-09-19
+        12,2015-11-01,2015-11-10
+        13,2015-12-13,2015-12-23
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:26 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1132'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4970'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"7e8a2c4d17c5da9f97b27396bcfa53cf"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 76d9828c7e4f1d910f7ba069e90ce976
+      X-Github-Request-Id:
+      - 5102724B:1D25D:AE34183:56828A3E
+    body:
+      encoding: UTF-8
+      string: '{"name":"vivarium-cleans.csv","path":"vivarium-cleans.csv","sha":"c642e1cbab366182c683827266bacb18cfbb283b","size":199,"url":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv","type":"file","content":"U2VyaWFsLERhdGUKMSwyMDE0LTEwLTI1CjIsMjAxNC0xMS0yMwozLDIwMTQt\nMTItMjEKNCwyMDE1LTAxLTE4CjUsMjAxNS0wMi0xNAo2LDIwMTUtMDMtMjEK\nNywyMDE1LTA0LTE4CjgsMjAxNS0wNS0yNAo5LDIwMTUtMDYtMTcKMTAsMjAx\nNS0wNy0xOAoxMSwyMDE1LTA4LTE1CjEyLDIwMTUtMDktMTIKMTMsMjAxNS0x\nMC0xOAoxNCwyMDE1LTExLTIxCg==\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/vivarium-cleans.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/c642e1cbab366182c683827266bacb18cfbb283b","html":"https://github.com/pikesley/snake-data/blob/master/vivarium-cleans.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:26 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/vivarium-cleans.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"c642e1cbab366182c683827266bacb18cfbb283b"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1315:2F40:17DB55B1:56828A3A
+      Content-Length:
+      - '199'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:26 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lhr6332-LHR
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 2fb3167f77b6e04098e6b2ea03f1f3a52da29cf8
+      Expires:
+      - Tue, 29 Dec 2015 13:32:26 GMT
+      Source-Age:
+      - '4'
+    body:
+      encoding: UTF-8
+      string: |
+        Serial,Date
+        1,2014-10-25
+        2,2014-11-23
+        3,2014-12-21
+        4,2015-01-18
+        5,2015-02-14
+        6,2015-03-21
+        7,2015-04-18
+        8,2015-05-24
+        9,2015-06-17
+        10,2015-07-18
+        11,2015-08-15
+        12,2015-09-12
+        13,2015-10-18
+        14,2015-11-21
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:26 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 13:27:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1465'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4969'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:45:21 GMT
+      Etag:
+      - '"c4b3ce40ed01566c114afdcb64049e5f"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 7b641bda7ec2ca7cd9df72d2578baf75
+      X-Github-Request-Id:
+      - 5102724B:1D261:1ED63A06:56828A3E
+    body:
+      encoding: UTF-8
+      string: '{"name":"weight.csv","path":"weight.csv","sha":"e86c9b593025ca38a51aab3b93596cef9c4cdd37","size":489,"url":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","html_url":"https://github.com/pikesley/snake-data/blob/master/weight.csv","git_url":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","download_url":"https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv","type":"file","content":"RGF0ZSxNYXNzIGluIGcKMjAxNC0xMC0yMywxOC4zCjIwMTQtMTAtMzEsMTkK\nMjAxNC0xMS0wNSwyMgoyMDE0LTExLTExLDIyLjgKMjAxNC0xMi0wMiwyNAoy\nMDE0LTEyLTA5LDI4LjUKMjAxNC0xMi0xNiwyOAoyMDE0LTEyLTIzLDM0LjIK\nMjAxNS0wMS0wNCwzMi4zCjIwMTUtMDEtMTMsMzUuMwoyMDE1LTAxLTIwLDQw\nLjQKMjAxNS0wMS0yOCwzNi40CjIwMTUtMDItMDgsMzMuNwoyMDE1LTAyLTEx\nLDQxLjMKMjAxNS0wMi0xOCw0My4yCjIwMTUtMDItMjUsNDkuMgoyMDE1LTAz\nLTEwLDU0LjcKMjAxNS0wMy0xMiw1MC42CjIwMTUtMDMtMTksNTMuMwoyMDE1\nLTAzLTI0LDYzLjMKMjAxNS0wNC0wMiw2NS42CjIwMTUtMDQtMTYsODQKMjAx\nNS0wNC0yMyw4NS4xCjIwMTUtMDUtMTQsMTAzLjMKMjAxNS0wNS0xNyw5Ny44\nCjIwMTUtMDUtMjYsMTE4LjcKMjAxNS0wNi0xMCwxMzYuNwoyMDE1LTA3LTAx\nLDE1NAoyMDE1LTA3LTE0LDE3Ni44CjIwMTUtMDgtMTksMjA1LjAK\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/snake-data/contents/weight.csv?ref=master","git":"https://api.github.com/repos/pikesley/snake-data/git/blobs/e86c9b593025ca38a51aab3b93596cef9c4cdd37","html":"https://github.com/pikesley/snake-data/blob/master/weight.csv"}}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:27 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/pikesley/snake-data/master/weight.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"e86c9b593025ca38a51aab3b93596cef9c4cdd37"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - B91F1320:2F46:27B74E68:56828A3B
+      Content-Length:
+      - '489'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 29 Dec 2015 13:27:27 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-lhr6327-LHR
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 0ec8c7e54c79d52c473ce4823fe5d85329e48598
+      Expires:
+      - Tue, 29 Dec 2015 13:32:27 GMT
+      Source-Age:
+      - '4'
+    body:
+      encoding: UTF-8
+      string: |
+        Date,Mass in g
+        2014-10-23,18.3
+        2014-10-31,19
+        2014-11-05,22
+        2014-11-11,22.8
+        2014-12-02,24
+        2014-12-09,28.5
+        2014-12-16,28
+        2014-12-23,34.2
+        2015-01-04,32.3
+        2015-01-13,35.3
+        2015-01-20,40.4
+        2015-01-28,36.4
+        2015-02-08,33.7
+        2015-02-11,41.3
+        2015-02-18,43.2
+        2015-02-25,49.2
+        2015-03-10,54.7
+        2015-03-12,50.6
+        2015-03-19,53.3
+        2015-03-24,63.3
+        2015-04-02,65.6
+        2015-04-16,84
+        2015-04-23,85.1
+        2015-05-14,103.3
+        2015-05-17,97.8
+        2015-05-26,118.7
+        2015-06-10,136.7
+        2015-07-01,154
+        2015-07-14,176.8
+        2015-08-19,205.0
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 13:27:27 GMT
 recorded_with: VCR 3.0.1
