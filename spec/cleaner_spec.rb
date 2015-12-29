@@ -1,8 +1,8 @@
 module Dashboard
   describe Cleaner do
     context 'helpers' do
-      it 'titleises a string' do
-        expect(described_class.titleise 'vivarium-cleans.csv').to eq 'Vivarium Cleans'
+      it 'titleises an item' do
+        expect(described_class.titleise({'name' => 'vivarium-cleans.csv'})).to eq 'Vivarium Cleans'
       end
     end
     it 'turns a CSV into a JSON-ish hash', :vcr do

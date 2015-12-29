@@ -18,6 +18,10 @@ module Dashboard
       HTTParty.get url, headers: headers, query: query
     end
 
+    def self.extract_repo url
+      url.match(/https:\/\/api.github.com\/repos\/[^\/]*\/([^\/]*)\/contents.*/)[1]
+    end
+
     def self.fetch_CSV url
       csv = get url
       CSV.parse csv
@@ -30,6 +34,7 @@ module Dashboard
     def self.assemble_data url
       m = fetch_metadata url
       m['data'] = fetch_CSV m['download_url']
+      m['repo'] = extract_repo m['url']
 
       m
     end
@@ -44,7 +49,7 @@ module Dashboard
       self.list_CSVs(repo).each do |url|
         c.push assemble_data url
       end
-      
+
       c
     end
   end

@@ -1,0 +1,4 @@
+snake-data:
+  length:
+    title: Length Measurement
+    type: graph
