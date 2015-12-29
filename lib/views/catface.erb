@@ -1,29 +1,20 @@
 <div class='row' id='data'></div>
 
-
 <script>
-alert(document.URL);
-var main = function() {
-  $.getJSON(document.URL, function(data) {
-    debugger
+  $.getJSON(document.URL, function(json) {
+    Object.keys(json).forEach(function(key) {
+      var j = json[key]
+      if (j['type'] === 'latest') {
+        $('#data').append(
+          cellContent(j)
+        )
+      }
+    })
   })
-}
-//  var main = function() {
-//    var items = <%= @data %>
-//    Object.keys(items).forEach(function(key) {
-//      $('#data').append(
-//        cellContent(items[key].name, items[key].newest)
-//      )
-//    })
-//  }
 
-  function cellContent(id, data) {
-    fixedDate = moment(data, 'YYYY-MM-DD').format('dddd Do MMMM')
-    id = id.replace('.csv', '')
-    subject = id.replace('-', ' ')
-    content = '<p>Last ' + subject + ' was on</p><h2>' + fixedDate + '</h2>'
-    return "<div class='col-md-4' id='#" + id + "'>" + content + "</div>"
+  function cellContent(json) {
+    fixedDate = moment(json['Date'], 'YYYY-MM-DD').format('dddd Do MMMM')
+    content = '<p>Last ' + json['title'] + ' was on</p><h2>' + fixedDate + '</h2>'
+    return "<div class='col-md-4' id='#" + json['id'] + "'>" + content + "</div>"
   }
-
-  $(document).ready(main);
 </script>

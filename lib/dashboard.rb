@@ -34,7 +34,24 @@ module Dashboard
         end
 
         wants.json do
-          @data = Fetcher.fetch_CSVs('pikesley/catface').to_json
+          urls = Fetcher.list_CSVs('pikesley/catface')
+          urls.map { |url| Cleaner.sanitized_data url }.to_json
+        end
+      end
+    end
+
+    get '/snake' do
+      respond_to do |wants|
+        headers 'Vary' => 'Accept'
+
+        wants.html do
+          @title = 'Snake'
+          erb :catface, layout: :default
+        end
+
+        wants.json do
+          urls = Fetcher.list_CSVs('pikesley/snake-data')
+          urls.map { |url| Cleaner.sanitized_data url }.to_json
         end
       end
     end

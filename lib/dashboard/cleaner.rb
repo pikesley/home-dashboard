@@ -26,6 +26,7 @@ module Dashboard
 
       j['title'] = titleise(d)
       j['name'] = d['name']
+      j['id'] = trim d['name']
       j['type'] = lookups.dig(d['repo'], trim(d['name']), 'type') || 'latest'
       j['url'] = d['_links']['html']
       j['data'] = jsonise d['data']
@@ -39,7 +40,7 @@ module Dashboard
 
     def self.titleise data
       trimmed = trim data['name']
-      lookups.dig(data['repo'], trimmed, 'title') || trimmed.split('-').map { |w| w[0].upcase + w[1..-1] }.join(' ')
+      lookups.dig(data['repo'], trimmed, 'title') || trimmed.split('-').map { |w| w[0].upcase + w[1..-1] }.join(' ').singularize
     end
   end
 end
