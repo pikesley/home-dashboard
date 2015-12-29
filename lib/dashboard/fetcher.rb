@@ -14,27 +14,34 @@ module Dashboard
       }
     end
 
-    def self.get_CSV url
-      csv = HTTParty.get url, headers: self.headers, query: self.query
+    def self.get url
+      HTTParty.get url, headers: headers, query: query
+    end
+
+    def self.fetch_CSV url
+      csv = get url
       CSV.parse csv
     end
 
-    def self.newest csv
-      csv.shift
-      csv.sort.last
+    def self.fetch_metadata url
+      JSON.parse get(url).body
+    end
+
+    def self.assemble_data url
+      m = fetch_metadata url
+      m['data'] = fetch_CSV m['download_url']
+
+      m
     end
 
     def self.list_CSVs repo
       url = ['https://api.github.com/repos', repo, 'contents'].join '/'
-
-      h = HTTParty.get url, headers: self.headers, query: self.query
-      h.select { |i| i['name'].match /\.csv$/ }
+      get(url).select { |i| i['name'].match /\.csv$/ }.map { |c| c['url'] }
     end
 
     def self.fetch_CSVs repo
       self.list_CSVs(repo).each do |csv|
-        csv['content'] = self.get_CSV(csv['download_url'])
-        csv['newest'] = self.newest(csv['content'].clone)
+      #  csv['content'] = self.get_CSV(csv['download_url'])
       end
     end
   end

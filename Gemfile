@@ -2,13 +2,14 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'sinatra-assetpack'
-gem 'thin'
+gem 'puma'
 gem 'rake'
 gem 'sass'
 gem 'bootstrap-sass'
 gem 'tilt', '~> 1'
 gem 'httparty'
 gem 'dotenv'
+gem 'rack-conneg'
 
 group :test do
   gem 'cucumber'

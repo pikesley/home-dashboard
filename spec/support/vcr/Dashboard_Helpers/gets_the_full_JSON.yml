@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/catface/contents?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 29 Dec 2015 12:36:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2317'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4999'
+      X-Ratelimit-Reset:
+      - '1451396206'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 07 Dec 2015 20:18:56 GMT
+      Etag:
+      - '"5c82a0c70452336f349748d163ff1b33"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 13d09b732ebe76f892093130dc088652
+      X-Github-Request-Id:
+      - 5102724B:1D261:1ECA4B60:56827E5E
+    body:
+      encoding: UTF-8
+      string: '[{"name":"README.md","path":"README.md","sha":"ff38f156aa98280e31e0707ac9d52bb6fc5087f3","size":86,"url":"https://api.github.com/repos/pikesley/catface/contents/README.md?ref=master","html_url":"https://github.com/pikesley/catface/blob/master/README.md","git_url":"https://api.github.com/repos/pikesley/catface/git/blobs/ff38f156aa98280e31e0707ac9d52bb6fc5087f3","download_url":"https://raw.githubusercontent.com/pikesley/catface/master/README.md","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/catface/contents/README.md?ref=master","git":"https://api.github.com/repos/pikesley/catface/git/blobs/ff38f156aa98280e31e0707ac9d52bb6fc5087f3","html":"https://github.com/pikesley/catface/blob/master/README.md"}},{"name":"flea-treatment.csv","path":"flea-treatment.csv","sha":"9f9077ece2431879f7b865ded46ce9796fc17dac","size":16,"url":"https://api.github.com/repos/pikesley/catface/contents/flea-treatment.csv?ref=master","html_url":"https://github.com/pikesley/catface/blob/master/flea-treatment.csv","git_url":"https://api.github.com/repos/pikesley/catface/git/blobs/9f9077ece2431879f7b865ded46ce9796fc17dac","download_url":"https://raw.githubusercontent.com/pikesley/catface/master/flea-treatment.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/catface/contents/flea-treatment.csv?ref=master","git":"https://api.github.com/repos/pikesley/catface/git/blobs/9f9077ece2431879f7b865ded46ce9796fc17dac","html":"https://github.com/pikesley/catface/blob/master/flea-treatment.csv"}},{"name":"worm-treatment.csv","path":"worm-treatment.csv","sha":"d230ca31f494a00dd2efbdf8f64273f991c388a6","size":16,"url":"https://api.github.com/repos/pikesley/catface/contents/worm-treatment.csv?ref=master","html_url":"https://github.com/pikesley/catface/blob/master/worm-treatment.csv","git_url":"https://api.github.com/repos/pikesley/catface/git/blobs/d230ca31f494a00dd2efbdf8f64273f991c388a6","download_url":"https://raw.githubusercontent.com/pikesley/catface/master/worm-treatment.csv","type":"file","_links":{"self":"https://api.github.com/repos/pikesley/catface/contents/worm-treatment.csv?ref=master","git":"https://api.github.com/repos/pikesley/catface/git/blobs/d230ca31f494a00dd2efbdf8f64273f991c388a6","html":"https://github.com/pikesley/catface/blob/master/worm-treatment.csv"}}]'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 12:36:47 GMT
+recorded_with: VCR 3.0.1
