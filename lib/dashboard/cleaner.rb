@@ -27,6 +27,7 @@ module Dashboard
       j['title'] = titleise(d)
       j['name'] = d['name']
       j['id'] = trim d['name']
+      j['date-field'] = lookups.dig(d['repo'], trim(d['name']), 'date-field') || 'Date' 
       j['type'] = lookups.dig(d['repo'], trim(d['name']), 'type') || 'latest'
       j['url'] = d['_links']['html']
       j['data'] = jsonise d['data']

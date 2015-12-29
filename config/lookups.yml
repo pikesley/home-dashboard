@@ -2,3 +2,9 @@ snake-data:
   length:
     title: Length Measurement
     type: graph
+
+  weight:
+    type: graph
+
+  sheds:
+    date-field: Shed completed

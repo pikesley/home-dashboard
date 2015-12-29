@@ -30,7 +30,7 @@ module Dashboard
 
         wants.html do
           @title = 'Catface'
-          erb :catface, layout: :default
+          erb :grid, layout: :default
         end
 
         wants.json do
@@ -46,7 +46,7 @@ module Dashboard
 
         wants.html do
           @title = 'Snake'
-          erb :catface, layout: :default
+          erb :grid, layout: :default
         end
 
         wants.json do

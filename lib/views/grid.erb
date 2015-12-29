@@ -13,7 +13,7 @@
   })
 
   function cellContent(json) {
-    fixedDate = moment(json['Date'], 'YYYY-MM-DD').format('dddd Do MMMM')
+    fixedDate = moment(json['data'][json['data'].length -1][json['date-field']], 'YYYY-MM-DD').format('dddd Do MMMM')
     content = '<p>Last ' + json['title'] + ' was on</p><h2>' + fixedDate + '</h2>'
     return "<div class='col-md-4' id='#" + json['id'] + "'>" + content + "</div>"
   }
