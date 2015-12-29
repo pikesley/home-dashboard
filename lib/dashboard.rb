@@ -2,6 +2,7 @@ require 'sinatra/base'
 require 'sinatra/assetpack'
 require 'tilt'
 require 'httparty'
+require 'rack/conneg'
 require 'csv'
 require 'dotenv'
 require 'json'
@@ -9,29 +10,14 @@ require 'active_support/inflector'
 
 require_relative 'dashboard/fetcher'
 require_relative 'dashboard/cleaner'
+require_relative 'dashboard/racks'
+require_relative 'dashboard/assets'
 require_relative 'dashboard/version'
 
 Dotenv.load
 
 module Dashboard
   class App < Sinatra::Base
-    register Sinatra::AssetPack
-
-    assets do
-      serve '/js', from: 'assets/javascripts'
-      js :application, [
-        '/js/dashboard.js'
-      ]
-
-      serve '/css', from: 'assets/css'
-      css :application, [
-        '/css/styles.css'
-      ]
-
-      js_compression :jsmin
-      css_compression :sass
-    end
-
     get '/' do
       @content = '<h1>Home Dashboard</h1>'
       @title = 'Dashboard'
@@ -39,9 +25,18 @@ module Dashboard
     end
 
     get '/catface' do
-      @title = 'Catface'
-      @data = Fetcher.fetch_CSVs('pikesley/catface').to_json
-      erb :catface, layout: :default
+      respond_to do |wants|
+        headers 'Vary' => 'Accept'
+
+        wants.html do
+          @title = 'Catface'
+          erb :catface, layout: :default
+        end
+
+        wants.json do
+          @data = Fetcher.fetch_CSVs('pikesley/catface').to_json
+        end
+      end
     end
 
     # start the server if ruby file executed directly
