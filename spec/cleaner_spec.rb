@@ -78,7 +78,8 @@ module Dashboard
               'Date' => '2015-08-27',
               'Length in m' => '0.95'
             }
-          ]
+          ],
+          'date-field' => 'Date'
         }
       )
     end
@@ -95,7 +96,8 @@ module Dashboard
             {
               'Date' => '2015-12-03'
             }
-          ]
+          ],
+          'date-field' => 'Date'
         }
       )
     end
