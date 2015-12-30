@@ -1,1 +1,1 @@
-web: bundle exec ruby lib/dashboard.rb
+web: rackup -s puma -p $PORT
