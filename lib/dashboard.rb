@@ -1,6 +1,7 @@
 require 'sinatra/base'
 require 'sinatra/assetpack'
 require 'tilt'
+require 'sass'
 require 'httparty'
 require 'rack/conneg'
 require 'csv'
@@ -19,6 +20,7 @@ Dotenv.load
 module Dashboard
   class App < Sinatra::Base
     set :views, 'lib/views'
+    set :sass, { :load_paths => [ "#{App.root}/../assets/css" ] }
 
     get '/' do
       @content = '<h1>Home Dashboard</h1>'

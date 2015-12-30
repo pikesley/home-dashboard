@@ -3,6 +3,10 @@ module Dashboard
     set :views, 'lib/views'
     set :public_folder, 'public'
 
+    set :sass, { :load_paths => [
+      "../assets/css"
+    ]}
+
     register Sinatra::AssetPack
     assets do
       serve '/js', from: '../assets/javascripts'
