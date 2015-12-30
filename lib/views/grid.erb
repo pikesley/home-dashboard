@@ -42,7 +42,7 @@
     d = json['data'][json['data'].length -1][json['date-field']]
     fixedDate = moment(d, 'YYYY-MM-DD').format('dddd Do MMMM')
     age = moment(d, 'YYYY-MM-DD').fromNow()
-    content = '<h1>Last ' + json['title'] + ' was on</h1><h2>' + fixedDate + '</h2><h3>(' + age + ')</h3>'
+    content = '<h1><small>Last</small> ' + json['title'] + ' <small>was on</small></h1><h2>' + fixedDate + '</h2><h3>(' + age + ')</h3>'
     return cellContent(json['id'], content)
   }
 

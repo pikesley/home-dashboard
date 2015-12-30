@@ -1,6 +1,7 @@
 module Dashboard
   class App < Sinatra::Base
     set :views, 'lib/views'
+    set :public_folder, 'public'
 
     register Sinatra::AssetPack
     assets do

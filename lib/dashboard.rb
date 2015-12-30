@@ -10,14 +10,16 @@ require 'active_support/inflector'
 
 require_relative 'dashboard/fetcher'
 require_relative 'dashboard/cleaner'
-require_relative 'dashboard/racks'
 require_relative 'dashboard/assets'
+require_relative 'dashboard/racks'
 require_relative 'dashboard/version'
 
 Dotenv.load
 
 module Dashboard
   class App < Sinatra::Base
+    set :views, 'lib/views'
+
     get '/' do
       @content = '<h1>Home Dashboard</h1>'
       @title = 'Dashboard'
