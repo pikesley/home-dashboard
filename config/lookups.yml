@@ -1,6 +1,6 @@
 snake-data:
   length:
-    title: Length Measurement
+#    title: Length Measurement
     type: graph
 
   weight:
