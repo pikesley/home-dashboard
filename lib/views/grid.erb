@@ -11,7 +11,6 @@
           latestCell(j)
         )
       } else if (j['type'] === 'graph') {
-        debugger
         ecks = Object.keys(j['data'][0])[0]
         why = Object.keys(j['data'][0])[1]
         var points = [
@@ -40,8 +39,10 @@
   })
 
   function latestCell(json) {
-    fixedDate = moment(json['data'][json['data'].length -1][json['date-field']], 'YYYY-MM-DD').format('dddd Do MMMM')
-    content = '<p>Last ' + json['title'] + ' was on</p><h2>' + fixedDate + ' (n days / weeks / months ago)</h2>'
+    d = json['data'][json['data'].length -1][json['date-field']]
+    fixedDate = moment(d, 'YYYY-MM-DD').format('dddd Do MMMM')
+    age = moment(d, 'YYYY-MM-DD').fromNow()
+    content = '<h1>Last ' + json['title'] + ' was on</h1><h2>' + fixedDate + '</h2><h3>(' + age + ')</h3>'
     return cellContent(json['id'], content)
   }
 
