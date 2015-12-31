@@ -16,7 +16,7 @@ module Dashboard
 
       serve '/css', from: '../assets/css'
       css :application, [
-        '/css/styles.css'
+        '/css/application.css'
       ]
 
       js_compression :jsmin
