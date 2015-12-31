@@ -1,10 +1,18 @@
+catface:
+  url: /catface
+  title: Catface
+
 snake-data:
-  length:
+  url: /snake
+  title: Snake
+
+  datasets:
+    length:
 #    title: Length Measurement
-    type: graph
+      type: graph
 
-  weight:
-    type: graph
+    weight:
+      type: graph
 
-  sheds:
-    date-field: Shed completed
+    sheds:
+      date-field: Shed completed

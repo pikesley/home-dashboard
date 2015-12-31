@@ -24,7 +24,7 @@ module Dashboard
 
     get '/' do
       @content = '<h1>Home Dashboard</h1>'
-      @title = 'Dashboard'
+      title = 'Dashboard'
       erb :index, layout: :default
     end
 

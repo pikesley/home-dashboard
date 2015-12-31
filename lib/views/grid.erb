@@ -1,6 +1,4 @@
-<h2><a href='/'>Home</a></h2>
-<h1><%= @title %></h1>
-<hr />
+
 <div class='row' id='numbers'></div>
 
 <div class='row' id='charts'></div>
@@ -14,32 +12,42 @@
           latestCell(j)
         )
       } else if (j['type'] === 'graph') {
-        ecks = Object.keys(j['data'][0])[0]
-        why = Object.keys(j['data'][0])[1]
-        var points = [
-          {
-            x: j['data'].map(function(item){ return item[ecks] }),
-            y: j['data'].map(function(item){ return item[why] }),
-            type: 'scatter'
-          }
-        ]
-
-        var layout = {
-          title: j['title'],
-          yaxis: {
-            title: why,
-            titlefont: {
-              size: 14,
-              color: '#7f7f7f'
-            }
-          }
-        }
-
-        $('#charts').append("<div id='" + j['id'] + "' class='col-md-6' style='height: 400px'></div>")
-        Plotly.newPlot(j['id'], points, layout)
+        graph(j)
       }
     })
   })
+
+  function graph(json) {
+    ecks = Object.keys(json['data'][0])[0]
+    why = Object.keys(json['data'][0])[1]
+    var points = [
+      {
+        x: json['data'].map(function(item){ return item[ecks] }),
+        y: json['data'].map(function(item){ return item[why] }),
+        type: 'scatter'
+      }
+    ]
+
+    var layout = {
+      title: json['title'],
+      xaxis: {
+        tickformat: "%b %Y"
+      },
+      yaxis: {
+        title: why,
+        titlefont: {
+          size: 14,
+          color: '#7f7f7f'
+        }
+      },
+      margin: {                           // update the left, bottom, right, top margin
+       l: 40, r: 10
+     }
+    }
+
+    $('#charts').append("<div id='" + json['id'] + "' class='col-md-6' style='height: 400px'></div>")
+    Plotly.newPlot(json['id'], points, layout)
+  }
 
   function latestCell(json) {
     d = json['data'][json['data'].length -1][json['date-field']]
