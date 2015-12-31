@@ -1,3 +1,5 @@
+<h1><%= @title %> dashboard</h1>
+<hr />
 
 <div class='row' id='numbers'></div>
 
@@ -40,9 +42,9 @@
           color: '#7f7f7f'
         }
       },
-      margin: {                           // update the left, bottom, right, top margin
+      margin: {
        l: 40, r: 10
-     }
+      }
     }
 
     $('#charts').append("<div id='" + json['id'] + "' class='col-md-6' style='height: 400px'></div>")
@@ -51,9 +53,25 @@
 
   function latestCell(json) {
     d = json['data'][json['data'].length -1][json['date-field']]
-    fixedDate = moment(d, 'YYYY-MM-DD').format('dddd Do MMMM')
+    fixedDate = moment(d, 'YYYY-MM-DD').format('Do MMMM')
     age = moment(d, 'YYYY-MM-DD').fromNow()
-    content = '<h1><small>Last</small> ' + json['title'] + ' <small>was on</small></h1><h2>' + fixedDate + '</h2><h3>(' + age + ')</h3>'
+    content = '<h1><small>Last</small> '
+    content += json['title'] + ':</h1>'
+    if(json['special_fields']) {
+      debugger
+      content += '<h4>'
+
+      json['special_fields'].forEach(function(field) {
+        content += json['data'][json['data'].length -1][field]
+        content += ' '
+      })
+
+      content += '</h4>'
+    }
+    content += '<h2>' + fixedDate + '</h2>'
+    content += '<h3>(' + age + ')</h3>'
+    content += '<hr />'
+
     return cellContent(json['id'], content)
   }
 

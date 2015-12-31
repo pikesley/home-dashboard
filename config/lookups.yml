@@ -16,3 +16,8 @@ snake-data:
 
     sheds:
       date-field: Shed completed
+
+    feeds:
+      special-fields:
+        - Eaten
+        - Food

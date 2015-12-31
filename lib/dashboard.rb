@@ -20,7 +20,6 @@ Dotenv.load
 module Dashboard
   class App < Sinatra::Base
     set :views, 'lib/views'
-    set :sass, { :load_paths => [ "#{App.root}/../assets/css" ] }
 
     get '/' do
       @content = '<h1>Home Dashboard</h1>'

@@ -28,9 +28,10 @@ module Dashboard
       j['name'] = d['name']
       j['id'] = trim d['name']
       j['date-field'] = lookups.dig(d['repo'], 'datasets', trim(d['name']), 'date-field') || 'Date'
-  #    require "pry" ; binding.pry
       j['type'] = lookups.dig(d['repo'], 'datasets', trim(d['name']), 'type') || 'latest'
       j['url'] = d['_links']['html']
+      sf = lookups.dig(d['repo'], 'datasets', trim(d['name']), 'special-fields')
+      j['special_fields'] = sf if sf
       j['data'] = jsonise d['data']
 
       j

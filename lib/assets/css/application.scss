@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-#numbers h1, h2, h3 {
+#numbers h1, h2, h3, h4 {
   padding: 0px;
   margin: 0px;
 }
@@ -15,4 +15,8 @@
 
 #numbers h3 {
   font-size: 1em;
+}
+
+#numbers div {
+  padding: 5px;
 }
