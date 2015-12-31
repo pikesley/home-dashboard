@@ -1,5 +1,7 @@
 module Dashboard
   class Fetcher
+    @@redis = Redis.new
+
     def self.headers
       {
         'Accept' => 'application/vnd.github.v3+json',
@@ -15,15 +17,14 @@ module Dashboard
     end
 
     def self.get url
-      redis = Redis.new
-      if redis.get url
-        return Marshal.load(redis.get url)
+      if @@redis.get url
+        return Marshal.load(@@redis.get url)
       end
 
       h = HTTParty.get url, headers: headers, query: query
-      redis.set url, Marshal.dump(h.body)
-      redis.expire url, 3600
-      return Marshal.load(redis.get url)
+      @@redis.set url, Marshal.dump(h.body)
+      @@redis.expire url, 3600
+      return Marshal.load(@@redis.get url)
     end
 
     def self.extract_repo url
