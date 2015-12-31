@@ -13,6 +13,7 @@ gem 'httparty'
 gem 'dotenv'
 gem 'rack-conneg'
 gem 'actionpack', '~> 4'
+gem 'redis'
 
 group :test do
   gem 'cucumber'

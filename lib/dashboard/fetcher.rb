@@ -15,7 +15,15 @@ module Dashboard
     end
 
     def self.get url
-      HTTParty.get url, headers: headers, query: query
+      redis = Redis.new
+      if redis.get url
+        return redis.get url
+      end
+
+      h = HTTParty.get url, headers: headers, query: query
+      redis.set url, h.body
+      redis.expire url, 3600
+      h
     end
 
     def self.extract_repo url
@@ -28,7 +36,7 @@ module Dashboard
     end
 
     def self.fetch_metadata url
-      JSON.parse get(url).body
+      JSON.parse get(url)
     end
 
     def self.assemble_data url
@@ -41,7 +49,7 @@ module Dashboard
 
     def self.list_CSVs repo
       url = ['https://api.github.com/repos', repo, 'contents'].join '/'
-      get(url).select { |i| i['name'].match /\.csv$/ }.map { |c| c['url'] }
+      JSON.parse(get(url)).select { |i| i['name'].match /\.csv$/ }.map { |c| c['url'] }
     end
 
     def self.fetch_CSVs repo

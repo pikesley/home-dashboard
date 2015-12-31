@@ -7,6 +7,7 @@ require 'rack/conneg'
 require 'csv'
 require 'dotenv'
 require 'json'
+require 'redis'
 require 'active_support/inflector'
 
 require_relative 'dashboard/fetcher'
