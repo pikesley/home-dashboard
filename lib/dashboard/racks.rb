@@ -1,9 +1,10 @@
 module Dashboard
   class App < Sinatra::Base
-    use Rack::Conneg  do |conneg|
+    use Rack::Conneg do |conneg|
       conneg.set :accept_all_extensions, false
       conneg.set :fallback, :html
       conneg.ignore('/css/')
+      conneg.ignore('/js/')
       conneg.provide([:html, :json])
     end
 

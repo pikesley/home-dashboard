@@ -10,8 +10,9 @@ module Dashboard
     register Sinatra::AssetPack
     assets do
       serve '/js', from: '../assets/javascripts'
-      js :application, [
-        '/js/dashboard.js'
+      js :app, [
+        '/js/dashboard.js',
+        '/js/plotly-latest.min.js'
       ]
 
       serve '/css', from: '../assets/css'
