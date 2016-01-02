@@ -1,9 +1,9 @@
-@vcr
 Feature: Get JSON
 
   Background:
     Given I send and accept JSON
 
+  @vcr
   Scenario: Get JSON for a dataset
     When I send a GET request to "catface/flea-treatment"
     Then the response status should be "200"

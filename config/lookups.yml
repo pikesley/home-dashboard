@@ -1,10 +1,12 @@
 catface:
   url: /catface
   title: Catface
+  repo: pikesley/catface
 
 snake-data:
   url: /snake
   title: Snake
+  repo: pikesley/snake-data
 
   datasets:
     length:

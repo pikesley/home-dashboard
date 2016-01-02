@@ -13,6 +13,7 @@ require 'active_support/inflector'
 require_relative 'dashboard/fetcher'
 require_relative 'dashboard/cleaner'
 require_relative 'dashboard/assets'
+require_relative 'dashboard/helpers'
 require_relative 'dashboard/racks'
 require_relative 'dashboard/version'
 
@@ -21,6 +22,10 @@ Dotenv.load
 module Dashboard
   class App < Sinatra::Base
     set :views, 'lib/views'
+
+    helpers do
+      include Dashboard::Helpers
+    end
 
     get '/' do
       @content = '<h1>Home Dashboard</h1>'
@@ -49,7 +54,11 @@ module Dashboard
         headers 'Vary' => 'Accept'
 
         wants.json do
-          Cleaner.sanitized_data("https://api.github.com/repos/pikesley/#{params[:repo]}/contents/#{params[:dataset]}.csv?ref=master").to_json
+          Cleaner.sanitized_data("https://api.github.com/repos/#{repo_map[params[:repo]]}/contents/#{params[:dataset]}.csv?ref=master").to_json
+        end
+
+        wants.html do
+          erb :dataset, layout: :default
         end
       end
     end
@@ -73,4 +82,6 @@ module Dashboard
     # start the server if ruby file executed directly
     run! if app_file == $0
   end
+
+
 end
