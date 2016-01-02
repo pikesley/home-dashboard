@@ -31,9 +31,10 @@
     ]
 
     var layout = {
-      title: json['title'],
+      title: json['title'] + ' (' + githubLink(json) + ')',
       xaxis: {
-        tickformat: "%b %Y"
+        tickformat: "%b %Y",
+        tickangle: 90
       },
       yaxis: {
         title: why,
@@ -43,7 +44,7 @@
         }
       },
       margin: {
-       l: 40, r: 10
+       l: 50, r: 10
       }
     }
 
@@ -69,9 +70,14 @@
     }
     content += '<h2>' + fixedDate + '</h2>'
     content += '<h3>(' + age + ')</h3>'
+    content += githubLink(json)
     content += '<hr />'
 
     return cellContent(json['id'], content)
+  }
+
+  function githubLink(json) {
+    return '<a href="' + json['url'] + '">Source</a>'
   }
 
   function cellContent(id, content) {
