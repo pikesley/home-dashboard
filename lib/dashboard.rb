@@ -44,24 +44,12 @@ module Dashboard
       end
     end
 
-    get '/catface/flea-treatment' do
+    get '/:repo/:dataset' do
       respond_to do |wants|
         headers 'Vary' => 'Accept'
 
         wants.json do
-          {
-            title: "Flea Treatment",
-            name: "flea-treatment.csv",
-            id: "flea-treatment",
-            'date-field': "Date",
-            type: "latest",
-            url: "https://github.com/pikesley/catface/blob/master/flea-treatment.csv",
-            data: [
-              {
-                Date: "2015-12-03"
-              }
-            ]
-          }.to_json
+          Cleaner.sanitized_data("https://api.github.com/repos/pikesley/#{params[:repo]}/contents/#{params[:dataset]}.csv?ref=master").to_json
         end
       end
     end
