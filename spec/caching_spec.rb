@@ -6,7 +6,7 @@ module Dashboard
 
     it 'stores a value in Redis', :vcr do
       url = 'https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv'
-      described_class.fetch_CSV(url)
+      described_class.get(url)
       expect(Marshal.load(Redis.new.get(url))).to eq(
 """\
 Date,Length in m
@@ -19,6 +19,14 @@ Date,Length in m
 2015-08-27,0.95
 """
       )
+    end
+
+    it 'expires a value after the timeout', :vcr do
+      url = 'https://api.github.com/repos/pikesley/catface/contents/flea-treatment.csv?ref=master'
+      described_class.get(url, 1)
+      expect(Redis.new.get url).to_not be nil
+      sleep 1
+      expect(Redis.new.get url).to be nil
     end
   end
 end

@@ -16,14 +16,14 @@ module Dashboard
       }
     end
 
-    def self.get url
+    def self.get url, ttl = 3600
       if REDIS.get url
         return Marshal.load(REDIS.get url)
       end
 
       h = HTTParty.get url, headers: headers, query: query
       REDIS.set url, Marshal.dump(h.body)
-      REDIS.expire url, 3600
+      REDIS.expire url, ttl
     #  require "pry" ; binding.pry
       return Marshal.load(REDIS.get url)
     end

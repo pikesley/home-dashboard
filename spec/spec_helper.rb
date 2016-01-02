@@ -1,5 +1,6 @@
 require 'coveralls'
 Coveralls.wear_merged!
+require 'timecop'
 
 require 'dashboard'
 require_relative 'support/vcr_setup'

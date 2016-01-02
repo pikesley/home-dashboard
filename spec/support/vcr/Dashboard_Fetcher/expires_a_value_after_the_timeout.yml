@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/pikesley/catface/contents/flea-treatment.csv?client_id=<GITHUB_CLIENT_ID>&client_secret=<GITHUB_CLIENT_SECRET>&ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Dashboard v0.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 02 Jan 2016 18:00:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '851'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4989'
+      X-Ratelimit-Reset:
+      - '1451758800'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 28 Dec 2015 16:27:33 GMT
+      Etag:
+      - '"a408ef05c671be4ca2e7796fbb82dd17"'
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 4c8b2d4732c413f4b9aefe394bd65569
+      X-Github-Request-Id:
+      - 5102724B:A39B:260C5A0D:56881020
+    body:
+      encoding: UTF-8
+      string: '{"name":"flea-treatment.csv","path":"flea-treatment.csv","sha":"9f9077ece2431879f7b865ded46ce9796fc17dac","size":16,"url":"https://api.github.com/repos/pikesley/catface/contents/flea-treatment.csv?ref=master","html_url":"https://github.com/pikesley/catface/blob/master/flea-treatment.csv","git_url":"https://api.github.com/repos/pikesley/catface/git/blobs/9f9077ece2431879f7b865ded46ce9796fc17dac","download_url":"https://raw.githubusercontent.com/pikesley/catface/master/flea-treatment.csv","type":"file","content":"RGF0ZQoyMDE1LTEyLTAzCg==\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/pikesley/catface/contents/flea-treatment.csv?ref=master","git":"https://api.github.com/repos/pikesley/catface/git/blobs/9f9077ece2431879f7b865ded46ce9796fc17dac","html":"https://github.com/pikesley/catface/blob/master/flea-treatment.csv"}}'
+    http_version: 
+  recorded_at: Sat, 02 Jan 2016 18:00:01 GMT
+recorded_with: VCR 3.0.1
