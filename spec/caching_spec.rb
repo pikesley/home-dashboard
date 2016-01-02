@@ -4,6 +4,10 @@ module Dashboard
       Redis.new.flushall
     end
 
+    after :all do
+      Redis.new.flushall
+    end
+
     it 'stores a value in Redis', :vcr do
       url = 'https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv'
       described_class.get(url)
@@ -25,6 +29,7 @@ Date,Length in m
       url = 'https://api.github.com/repos/pikesley/catface/contents/flea-treatment.csv?ref=master'
       described_class.get(url, 1)
       expect(Redis.new.get url).to_not be nil
+      expect(Redis.new.ttl url).to eq 1
       sleep 1
       expect(Redis.new.get url).to be nil
     end
