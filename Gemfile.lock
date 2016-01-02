@@ -188,6 +188,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
+    timecop (0.8.0)
     tins (1.6.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -228,6 +229,7 @@ DEPENDENCIES
   sinatra
   sinatra-assetpack
   tilt (~> 1)
+  timecop
   vcr
   webmock
 

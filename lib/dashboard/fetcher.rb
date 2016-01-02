@@ -1,6 +1,6 @@
 module Dashboard
   class Fetcher
-    @@redis = Redis.new
+    REDIS = Redis.new
 
     def self.headers
       {
@@ -17,14 +17,15 @@ module Dashboard
     end
 
     def self.get url
-      if @@redis.get url
-        return Marshal.load(@@redis.get url)
+      if REDIS.get url
+        return Marshal.load(REDIS.get url)
       end
 
       h = HTTParty.get url, headers: headers, query: query
-      @@redis.set url, Marshal.dump(h.body)
-      @@redis.expire url, 3600
-      return Marshal.load(@@redis.get url)
+      REDIS.set url, Marshal.dump(h.body)
+      REDIS.expire url, 3600
+    #  require "pry" ; binding.pry
+      return Marshal.load(REDIS.get url)
     end
 
     def self.extract_repo url

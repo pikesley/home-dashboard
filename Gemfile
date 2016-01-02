@@ -23,6 +23,7 @@ group :test do
   gem 'guard-cucumber'
   gem 'guard-rspec'
   gem 'pry'
+  gem 'timecop'
   gem 'vcr'
   gem 'webmock'
   gem 'cucumber-api-steps', require: false
