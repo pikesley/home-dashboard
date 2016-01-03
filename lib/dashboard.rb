@@ -33,9 +33,11 @@ module Dashboard
       erb :index, layout: :default
     end
 
-    get '/catface' do
+    get '/:repo' do
       respond_to do |wants|
         headers 'Vary' => 'Accept'
+
+        repo = repo_map[params[:repo]]
 
         wants.html do
           @title = 'Catface'
@@ -43,7 +45,7 @@ module Dashboard
         end
 
         wants.json do
-          urls = Fetcher.list_CSVs('pikesley/catface')
+          urls = Fetcher.list_CSVs(repo_map[params[:repo]])
           urls.map { |url| Cleaner.sanitized_data url }.to_json
         end
       end
@@ -54,27 +56,11 @@ module Dashboard
         headers 'Vary' => 'Accept'
 
         wants.json do
-          Cleaner.sanitized_data("https://api.github.com/repos/#{repo_map[params[:repo]]}/contents/#{params[:dataset]}.csv?ref=master").to_json
+          Cleaner.sanitized_data("https://api.github.com/repos/#{Cleaner.lookups[params[:repo]]['repo']}/contents/#{params[:dataset]}.csv?ref=master").to_json
         end
 
         wants.html do
           erb :dataset, layout: :default
-        end
-      end
-    end
-
-    get '/snake' do
-      respond_to do |wants|
-        headers 'Vary' => 'Accept'
-
-        wants.html do
-          @title = 'Snake'
-          erb :grid, layout: :default
-        end
-
-        wants.json do
-          urls = Fetcher.list_CSVs('pikesley/snake-data')
-          urls.map { |url| Cleaner.sanitized_data url }.to_json
         end
       end
     end

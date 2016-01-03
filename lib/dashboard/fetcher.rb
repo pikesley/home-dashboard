@@ -32,7 +32,7 @@ module Dashboard
     end
 
     def self.extract_repo url
-      url.match(/https:\/\/api.github.com\/repos\/[^\/]*\/([^\/]*)\/contents.*/)[1]
+      url.match(/https:\/\/api.github.com\/repos\/([^\/]*\/[^\/]*)\/contents.*/)[1]
     end
 
     def self.fetch_CSV url

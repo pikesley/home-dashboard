@@ -3,7 +3,7 @@ catface:
   title: Catface
   repo: pikesley/catface
 
-snake-data:
+snake:
   url: /snake
   title: Snake
   repo: pikesley/snake-data
