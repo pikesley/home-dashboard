@@ -1,7 +1,6 @@
 //@import 'bootstrap';
 
 #data {
-  text-align: center;
 }
 
 #data h1, h2, h3, h4 {
@@ -18,13 +17,12 @@
 }
 
 #data div {
-  padding: 5px;
+  text-align: center;
 }
 
 html {
   position: relative;
   min-height: 100%;
-  text-transform: none;
 }
 
 body {
