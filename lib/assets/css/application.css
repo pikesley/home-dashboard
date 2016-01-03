@@ -38,8 +38,9 @@ body {
   opacity: 1;
   color: white;
   height: 50px;
-  background-color: #ddd;
+  background-color: #eee;
   color: #333;
+  border-top: solid 1px #ccc;
 
   padding: 15px;
 }
