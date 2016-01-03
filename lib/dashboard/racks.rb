@@ -5,7 +5,10 @@ module Dashboard
       conneg.set :fallback, :html
       conneg.ignore('/css/')
       conneg.ignore('/js/')
-      conneg.provide([:html, :json])
+      conneg.provide [
+        :html,
+        :json
+      ]
     end
 
     before do

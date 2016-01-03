@@ -1,7 +1,17 @@
 module Dashboard
   class Cleaner
-    def self.lookups
-      YAML.load_file 'config/lookups.yml'
+    def self.lookups inverted = false
+      y = YAML.load_file 'config/lookups.yml'
+
+      if inverted
+        x = {}
+        y.keys.each do |k|
+          x[y[k]['repo']] = y[k]
+        end
+        return x
+      end
+
+      y
     end
 
     def self.jsonise csv
@@ -22,15 +32,15 @@ module Dashboard
 
     def self.sanitized_data url
       j = {}
+      l = lookups(invert = true)
       d = Fetcher.assemble_data url
-
       j['title'] = titleise(d)
       j['name'] = d['name']
       j['id'] = trim d['name']
-      j['date-field'] = lookups.dig(d['repo'], 'datasets', trim(d['name']), 'date-field') || 'Date'
-      j['type'] = lookups.dig(d['repo'], 'datasets', trim(d['name']), 'type') || 'latest'
-      j['url'] = d['_links']['html']
-      sf = lookups.dig(d['repo'], 'datasets', trim(d['name']), 'special-fields')
+      j['date-field'] = l.dig(d['repo'], 'datasets', trim(d['name']), 'date-field') || 'Date'
+      j['type'] = l.dig(d['repo'], 'datasets', trim(d['name']), 'type') || 'latest'
+      j['source-url'] = d['_links']['html']
+      sf = l.dig(d['repo'], 'datasets', trim(d['name']), 'special-fields')
       j['special_fields'] = sf if sf
       j['data'] = jsonise d['data']
 
@@ -43,7 +53,7 @@ module Dashboard
 
     def self.titleise data
       trimmed = trim data['name']
-      lookups.dig(data['repo'], trimmed, 'title') || trimmed.split('-').map { |w| w[0].upcase + w[1..-1] }.join(' ').singularize
+      lookups(true).dig(data['repo'], trimmed, 'title') || trimmed.split('-').map { |w| w[0].upcase + w[1..-1] }.join(' ').singularize
     end
   end
 end

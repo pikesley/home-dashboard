@@ -4,7 +4,36 @@ module Dashboard
       it 'titleises an item' do
         expect(described_class.titleise({'name' => 'vivarium-cleans.csv'})).to eq 'Vivarium Clean'
       end
+
+      it 'inverts the lookups' do
+        expect(described_class.lookups(inverted = true)).to include (
+          {
+            'pikesley/snake-data' => {
+              'url' => '/snake',
+              'title' => 'Snake',
+              'repo' => 'pikesley/snake-data',
+              'datasets' => {
+                'length' => {
+                  'type' => 'graph'
+                },
+                'weight' => {
+                  'type' => 'graph'
+                },
+                'sheds' => {
+                  'date-field' => 'Shed completed'
+                },
+                'feeds' => {
+                  'special-fields' => [
+                    'Eaten', 'Food'
+                  ]
+                }
+              }
+            }
+          }
+        )
+      end
     end
+
     it 'turns a CSV into a JSON-ish hash', :vcr do
       csv = Fetcher.fetch_CSV 'https://raw.githubusercontent.com/pikesley/snake-data/master/length.csv'
       expect(described_class.jsonise csv).to eq (
@@ -48,7 +77,7 @@ module Dashboard
           'name' => 'length.csv',
           'id' => 'length',
           'type' => 'graph',
-          'url' => 'https://github.com/pikesley/snake-data/blob/master/length.csv',
+          'source-url' => 'https://github.com/pikesley/snake-data/blob/master/length.csv',
           'data' => [
             {
               'Date' => '2014-09-30',
@@ -91,7 +120,7 @@ module Dashboard
           'name' => 'flea-treatment.csv',
           'id' => 'flea-treatment',
           'type' => 'latest',
-          'url' => 'https://github.com/pikesley/catface/blob/master/flea-treatment.csv',
+          'source-url' => 'https://github.com/pikesley/catface/blob/master/flea-treatment.csv',
           'data' => [
             {
               'Date' => '2015-12-03'

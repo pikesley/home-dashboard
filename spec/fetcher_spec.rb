@@ -57,7 +57,7 @@ module Dashboard
           {
             'name' => 'worm-treatment.csv',
             'path' => 'worm-treatment.csv',
-            'repo' => 'catface',
+            'repo' => 'pikesley/catface',
             'sha' => 'd230ca31f494a00dd2efbdf8f64273f991c388a6',
             'size' => 16,
             'url' => 'https://api.github.com/repos/pikesley/catface/contents/worm-treatment.csv?ref=master',
@@ -99,7 +99,7 @@ module Dashboard
 
     it 'extracts a repo name' do
       expect(described_class.extract_repo 'https://api.github.com/repos/pikesley/catface/contents/flea-treatment.csv?ref=master').to eq (
-        'catface'
+        'pikesley/catface'
       )
     end
   end

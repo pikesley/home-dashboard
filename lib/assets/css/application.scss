@@ -1,22 +1,53 @@
 //@import 'bootstrap';
 
-#numbers {
+#data {
   text-align: center;
 }
 
-#numbers h1, h2, h3, h4 {
+#data h1, h2, h3, h4 {
   padding: 0px;
   margin: 0px;
 }
 
-#numbers h1 {
+#data h1 {
   font-size: 1.5em;
 }
 
-#numbers h3 {
+#data h3 {
   font-size: 1em;
 }
 
-#numbers div {
+#data div {
   padding: 5px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  text-transform: none;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  margin-top: 10px;
+
+  opacity: 1;
+  color: white;
+  height: 50px;
+  background-color: #ddd;
+  color: #333;
+
+  padding: 15px;
+}
+
+.footer a {
+  color: #333;
 }

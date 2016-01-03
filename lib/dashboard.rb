@@ -13,6 +13,7 @@ require 'active_support/inflector'
 require_relative 'dashboard/fetcher'
 require_relative 'dashboard/cleaner'
 require_relative 'dashboard/assets'
+require_relative 'dashboard/helpers'
 require_relative 'dashboard/racks'
 require_relative 'dashboard/version'
 
@@ -22,40 +23,59 @@ module Dashboard
   class App < Sinatra::Base
     set :views, 'lib/views'
 
+    helpers do
+      include Dashboard::Helpers
+    end
+
     get '/' do
       @content = '<h1>Home Dashboard</h1>'
       title = 'Dashboard'
       erb :index, layout: :default
     end
 
-    get '/catface' do
+    get '/:repo' do
       respond_to do |wants|
         headers 'Vary' => 'Accept'
 
         wants.html do
-          @title = 'Catface'
-          erb :grid, layout: :default
+          @title = Cleaner.lookups[params[:repo]]['title']
+          erb :dashboard, layout: :default
+        #  erb :grid, layout: :default
         end
 
         wants.json do
-          urls = Fetcher.list_CSVs('pikesley/catface')
-          urls.map { |url| Cleaner.sanitized_data url }.to_json
+          urls = Fetcher.list_CSVs Cleaner.lookups[params[:repo]]['repo']
+          urls.map { |url|
+            Cleaner.sanitized_data url
+          }.map { |dataset|
+            {
+              name: dataset['id'],
+              url: "#{request.scheme}://#{request.env['HTTP_HOST']}/#{params[:repo]}/#{dataset['id']}",
+              type: dataset['type']
+            }
+          }.to_json
         end
       end
     end
 
-    get '/snake' do
+    get '/:repo/:dataset' do
       respond_to do |wants|
         headers 'Vary' => 'Accept'
-
-        wants.html do
-          @title = 'Snake'
-          erb :grid, layout: :default
-        end
+        @layout = params.fetch('layout', 'default')
 
         wants.json do
-          urls = Fetcher.list_CSVs('pikesley/snake-data')
-          urls.map { |url| Cleaner.sanitized_data url }.to_json
+          url = "https://api.github.com/repos/#{Cleaner.lookups[params[:repo]]['repo']}/contents/#{params[:dataset]}.csv?ref=master"
+          Cleaner.sanitized_data(url).to_json
+        end
+
+        wants.csv do
+          puts "WTF"
+          require "pry" ; binding.pry
+
+        end
+
+        wants.html do
+          erb :dataset, layout: @layout.to_sym
         end
       end
     end
@@ -63,4 +83,6 @@ module Dashboard
     # start the server if ruby file executed directly
     run! if app_file == $0
   end
+
+
 end
