@@ -37,7 +37,6 @@ module Dashboard
       respond_to do |wants|
         headers 'Vary' => 'Accept'
 
-        repo = repo_map[params[:repo]]
 
         wants.html do
           @title = 'Catface'
@@ -45,8 +44,15 @@ module Dashboard
         end
 
         wants.json do
-          urls = Fetcher.list_CSVs(repo_map[params[:repo]])
-          urls.map { |url| Cleaner.sanitized_data url }.to_json
+          urls = Fetcher.list_CSVs Cleaner.lookups[params[:repo]]['repo']
+          urls.map { |url|
+            Cleaner.sanitized_data url
+          }.map { |dataset|
+            {
+              name: dataset['id'],
+              url: "#{request.scheme}://#{request.env['HTTP_HOST']}/#{params[:repo]}/#{dataset['id']}"
+            }
+          }.to_json
         end
       end
     end
@@ -56,7 +62,8 @@ module Dashboard
         headers 'Vary' => 'Accept'
 
         wants.json do
-          Cleaner.sanitized_data("https://api.github.com/repos/#{Cleaner.lookups[params[:repo]]['repo']}/contents/#{params[:dataset]}.csv?ref=master").to_json
+          url = "https://api.github.com/repos/#{Cleaner.lookups[params[:repo]]['repo']}/contents/#{params[:dataset]}.csv?ref=master"
+          Cleaner.sanitized_data(url).to_json
         end
 
         wants.html do
