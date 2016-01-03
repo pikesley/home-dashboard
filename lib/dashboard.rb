@@ -38,8 +38,9 @@ module Dashboard
         headers 'Vary' => 'Accept'
 
         wants.html do
-          @title = 'Catface'
-          erb :grid, layout: :default
+          @title = Cleaner.lookups[params[:repo]]['title']
+          erb :dashboard, layout: :default
+        #  erb :grid, layout: :default
         end
 
         wants.json do
@@ -49,7 +50,8 @@ module Dashboard
           }.map { |dataset|
             {
               name: dataset['id'],
-              url: "#{request.scheme}://#{request.env['HTTP_HOST']}/#{params[:repo]}/#{dataset['id']}.json"
+              url: "#{request.scheme}://#{request.env['HTTP_HOST']}/#{params[:repo]}/#{dataset['id']}",
+              type: dataset['type']
             }
           }.to_json
         end
@@ -59,6 +61,7 @@ module Dashboard
     get '/:repo/:dataset' do
       respond_to do |wants|
         headers 'Vary' => 'Accept'
+        @layout = params.fetch('layout', 'default')
 
         wants.json do
           url = "https://api.github.com/repos/#{Cleaner.lookups[params[:repo]]['repo']}/contents/#{params[:dataset]}.csv?ref=master"
@@ -72,7 +75,7 @@ module Dashboard
         end
 
         wants.html do
-          erb :dataset, layout: :default
+          erb :dataset, layout: @layout.to_sym
         end
       end
     end

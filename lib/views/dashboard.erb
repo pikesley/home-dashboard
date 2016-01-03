@@ -1,0 +1,24 @@
+<h1><%= @title %> dashboard</h1>
+<hr />
+
+<div class='row' id='numbers'></div>
+<div class='row' id='graphs'></div>
+
+<script>
+d3.json(document.URL, function(json) {
+  Object.keys(json).forEach(function(key) {
+    content = "<iframe class='embed-responsive-item' src='" + json[key]['url'] + "?layout=simple' height='100%' width='100%' frameborder='0' scrolling='no'></iframe>"
+
+    if(json[key]['type'] === 'latest') {
+      $('#numbers').append(
+        "<div class='col-md-4'>" + content + "</div>"
+      )
+    } else if (json[key]['type'] === 'graph') {
+      $('#graphs').append(
+        "<div class='col-md-6 embed-responsive embed-responsive-4by3'>" + content + "</div>"
+      )
+    }
+  })
+})
+
+</script>

@@ -8,6 +8,7 @@ Feature: Get JSON
     When I send a GET request to "snake"
     Then the response status should be "200"
     And the JSON response should have "$[0]name" with the text "feeds"
+    And the JSON response should have "$[1]type" with the text "graph"
 
   Scenario: Get JSON for a dataset
     When I send a GET request to "catface/flea-treatment"
