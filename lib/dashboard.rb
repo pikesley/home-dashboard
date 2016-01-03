@@ -33,10 +33,11 @@ module Dashboard
     end
 
     get '/:repo' do
+      # I have literally no idea
       if params[:repo] == 'favicon'
         return 200
       end
-      
+
       respond_to do |wants|
         headers 'Vary' => 'Accept'
 
