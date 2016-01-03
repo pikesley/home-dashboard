@@ -39,7 +39,7 @@ module Dashboard
       j['id'] = trim d['name']
       j['date-field'] = l.dig(d['repo'], 'datasets', trim(d['name']), 'date-field') || 'Date'
       j['type'] = l.dig(d['repo'], 'datasets', trim(d['name']), 'type') || 'latest'
-      j['url'] = d['_links']['html']
+      j['source-url'] = d['_links']['html']
       sf = l.dig(d['repo'], 'datasets', trim(d['name']), 'special-fields')
       j['special_fields'] = sf if sf
       j['data'] = jsonise d['data']

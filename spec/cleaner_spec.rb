@@ -77,7 +77,7 @@ module Dashboard
           'name' => 'length.csv',
           'id' => 'length',
           'type' => 'graph',
-          'url' => 'https://github.com/pikesley/snake-data/blob/master/length.csv',
+          'source-url' => 'https://github.com/pikesley/snake-data/blob/master/length.csv',
           'data' => [
             {
               'Date' => '2014-09-30',
@@ -120,7 +120,7 @@ module Dashboard
           'name' => 'flea-treatment.csv',
           'id' => 'flea-treatment',
           'type' => 'latest',
-          'url' => 'https://github.com/pikesley/catface/blob/master/flea-treatment.csv',
+          'source-url' => 'https://github.com/pikesley/catface/blob/master/flea-treatment.csv',
           'data' => [
             {
               'Date' => '2015-12-03'

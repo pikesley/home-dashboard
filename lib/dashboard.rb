@@ -37,7 +37,6 @@ module Dashboard
       respond_to do |wants|
         headers 'Vary' => 'Accept'
 
-
         wants.html do
           @title = 'Catface'
           erb :grid, layout: :default
@@ -50,7 +49,7 @@ module Dashboard
           }.map { |dataset|
             {
               name: dataset['id'],
-              url: "#{request.scheme}://#{request.env['HTTP_HOST']}/#{params[:repo]}/#{dataset['id']}"
+              url: "#{request.scheme}://#{request.env['HTTP_HOST']}/#{params[:repo]}/#{dataset['id']}.json"
             }
           }.to_json
         end
@@ -64,6 +63,12 @@ module Dashboard
         wants.json do
           url = "https://api.github.com/repos/#{Cleaner.lookups[params[:repo]]['repo']}/contents/#{params[:dataset]}.csv?ref=master"
           Cleaner.sanitized_data(url).to_json
+        end
+
+        wants.csv do
+          puts "WTF"
+          require "pry" ; binding.pry
+
         end
 
         wants.html do
