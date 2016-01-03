@@ -2,7 +2,6 @@
 
 <script>
   $.getJSON(document.URL, function(json) {
-    console.log(json['type'])
     if (json['type'] === 'latest') {
       $('#data').append(
         latestCell(json)
