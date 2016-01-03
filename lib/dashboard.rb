@@ -21,7 +21,6 @@ Dotenv.load
 
 module Dashboard
   class App < Sinatra::Base
-    set :views, 'lib/views'
 
     helpers do
       include Dashboard::Helpers
@@ -34,13 +33,16 @@ module Dashboard
     end
 
     get '/:repo' do
+      if params[:repo] == 'favicon'
+        return 200
+      end
+      
       respond_to do |wants|
         headers 'Vary' => 'Accept'
 
         wants.html do
           @title = Cleaner.lookups[params[:repo]]['title']
           erb :dashboard, layout: :default
-        #  erb :grid, layout: :default
         end
 
         wants.json do
