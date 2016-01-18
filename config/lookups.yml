@@ -23,3 +23,8 @@ snake:
       special-fields:
         - Eaten
         - Food
+
+fish:
+  url: /fish
+  title: Fish
+  repo: pikesley/fish-data

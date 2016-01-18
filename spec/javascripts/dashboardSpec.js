@@ -30,4 +30,11 @@ describe('dashboard', function () {
       })
     })
   })
+
+  describe('latestCell', function() {
+    it('generates a cell with the latest value', function() {
+      pending()
+      expect(latestCell(json)).toEqual()
+    })
+  })
 })
